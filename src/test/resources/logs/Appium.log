@@ -1,0 +1,378 @@
+2018-12-27 00:43:44:362 [Appium] Welcome to Appium v1.10.0
+2018-12-27 00:43:44:363 [Appium] Non-default server args:
+2018-12-27 00:43:44:364 [Appium]   logFile: /Users/phildolganov/IdeaProjects/AppiumTestingMac/src/test/resources/logs/Appium.log
+2018-12-27 00:43:44:364 [Appium]   localTimezone: true
+2018-12-27 00:43:44:385 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2018-12-27 00:43:44:699 [HTTP] --> GET /wd/hub/status
+2018-12-27 00:43:44:699 [HTTP] {}
+2018-12-27 00:43:44:701 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2018-12-27 00:43:44:703 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.10.0"}}
+2018-12-27 00:43:44:708 [HTTP] <-- GET /wd/hub/status 200 7 ms - 68
+2018-12-27 00:43:44:708 [HTTP] 
+2018-12-27 00:43:45:100 [HTTP] --> POST /wd/hub/session
+2018-12-27 00:43:45:100 [HTTP] {"desiredCapabilities":{"appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","platformName":"Android","deviceName":"Samsung"},"capabilities":{"alwaysMatch":{"appium:appActivity":".HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:automationName":"UiAutomator2","appium:deviceName":"Samsung","platformName":"android"},"firstMatch":[{}]}}
+2018-12-27 00:43:45:101 [W3C] Calling AppiumDriver.createSession() with args: [{"appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","platformName":"Android","deviceName":"Samsung"},null,{"alwaysMatch":{"appium:appActivity":".HomeScreenActivity","appium:appPackage":"io.selendroid.testapp","appium:automationName":"UiAutomator2","appium:deviceName":"Samsung","platformName":"android"},"firstMatch":[{}]}]
+2018-12-27 00:43:45:101 [BaseDriver] Event 'newSessionRequested' logged at 1545900225101 (00:43:45 GMT-0800 (Pacific Standard Time))
+2018-12-27 00:43:45:105 [Appium] Creating new AndroidUiautomator2Driver (v1.24.0) session
+2018-12-27 00:43:45:105 [Appium] Capabilities:
+2018-12-27 00:43:45:105 [Appium]   platformName: android
+2018-12-27 00:43:45:105 [Appium]   appActivity: .HomeScreenActivity
+2018-12-27 00:43:45:106 [Appium]   appPackage: io.selendroid.testapp
+2018-12-27 00:43:45:106 [Appium]   automationName: UiAutomator2
+2018-12-27 00:43:45:106 [Appium]   deviceName: Samsung
+2018-12-27 00:43:45:107 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"appActivity":".HomeScreen... were provided
+2018-12-27 00:43:45:108 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2018-12-27 00:43:45:112 [BaseDriver] Session created with session id: ead4b8b1-b176-4ad3-9419-e2177967730f
+2018-12-27 00:43:45:222 [AndroidDriver] Java version is: 1.8.0_181
+2018-12-27 00:43:45:224 [ADB] Checking whether adb is present
+2018-12-27 00:43:45:228 [ADB] Found 2 'build-tools' folders under '/Users/phildolganov/Library/Android/sdk' (newest first):
+2018-12-27 00:43:45:228 [ADB]     /Users/phildolganov/Library/Android/sdk/build-tools/28.0.3
+2018-12-27 00:43:45:229 [ADB]     /Users/phildolganov/Library/Android/sdk/build-tools/28.0.2
+2018-12-27 00:43:45:229 [ADB] Using adb from /Users/phildolganov/Library/Android/sdk/platform-tools/adb
+2018-12-27 00:43:45:229 [AndroidDriver] Retrieving device list
+2018-12-27 00:43:45:230 [ADB] Trying to find a connected android device
+2018-12-27 00:43:45:230 [ADB] Getting connected devices...
+2018-12-27 00:43:45:235 [ADB] 1 device(s) connected
+2018-12-27 00:43:45:236 [AndroidDriver] Using device: 44354f5747553098
+2018-12-27 00:43:45:236 [ADB] Setting device id to 44354f5747553098
+2018-12-27 00:43:45:237 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell getprop ro.build.version.sdk'
+2018-12-27 00:43:45:315 [ADB] Current device property 'ro.build.version.sdk': 26
+2018-12-27 00:43:45:315 [ADB] Device API level: 26
+2018-12-27 00:43:45:315 [AndroidDriver] No app sent in, not parsing package/activity
+2018-12-27 00:43:45:317 [ADB] Getting all processes with uiautomator
+2018-12-27 00:43:45:317 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell ps'
+2018-12-27 00:43:45:505 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am force-stop io.appium.uiautomator2.server'
+2018-12-27 00:43:45:607 [ADB] Checking app cert for /Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.8.0.apk
+2018-12-27 00:43:45:609 [ADB] Using apksigner from /Users/phildolganov/Library/Android/sdk/build-tools/28.0.3/apksigner
+2018-12-27 00:43:45:610 [ADB] Starting '/Users/phildolganov/Library/Android/sdk/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.8.0.apk"]'
+2018-12-27 00:43:45:947 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2018-12-27 00:43:45:947 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2018-12-27 00:43:45:947 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2018-12-27 00:43:45:947 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2018-12-27 00:43:45:947 [ADB] 
+2018-12-27 00:43:45:947 [ADB] '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.8.0.apk' is already signed.
+2018-12-27 00:43:45:948 [ADB] Checking app cert for /Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk
+2018-12-27 00:43:45:948 [ADB] Starting '/Users/phildolganov/Library/Android/sdk/build-tools/28.0.3/apksigner' with args '["verify","--print-certs","/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk"]'
+2018-12-27 00:43:46:321 [ADB] apksigner stdout: Signer #1 certificate DN: EMAILADDRESS=android@android.com, CN=Android, OU=Android, O=Android, L=Mountain View, ST=California, C=US
+2018-12-27 00:43:46:321 [ADB] Signer #1 certificate SHA-256 digest: a40da80a59d170caa950cf15c18c454d47a39b26989d8b640ecd745ba71bf5dc
+2018-12-27 00:43:46:321 [ADB] Signer #1 certificate SHA-1 digest: 61ed377e85d386a8dfee6b864bd85b0bfaa5af81
+2018-12-27 00:43:46:321 [ADB] Signer #1 certificate MD5 digest: e89b158e4bcf988ebd09eb83f5378e87
+2018-12-27 00:43:46:321 [ADB] 
+2018-12-27 00:43:46:321 [ADB] '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is already signed.
+2018-12-27 00:43:46:322 [ADB] Getting install status for io.appium.uiautomator2.server
+2018-12-27 00:43:46:323 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.uiautomator2.server'
+2018-12-27 00:43:46:419 [ADB] 'io.appium.uiautomator2.server' is installed
+2018-12-27 00:43:46:420 [ADB] Getting package info for 'io.appium.uiautomator2.server'
+2018-12-27 00:43:46:420 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.uiautomator2.server'
+2018-12-27 00:43:46:504 [ADB] Checking whether aapt is present
+2018-12-27 00:43:46:505 [ADB] Using aapt from /Users/phildolganov/Library/Android/sdk/build-tools/28.0.3/aapt
+2018-12-27 00:43:46:514 [ADB] The version name of the installed 'io.appium.uiautomator2.server' is greater or equal to the application version name ('2.8.0' >= '2.8.0')
+2018-12-27 00:43:46:514 [ADB] There is no need to install/upgrade '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.8.0.apk'
+2018-12-27 00:43:46:514 [ADB] Getting install status for io.appium.uiautomator2.server.test
+2018-12-27 00:43:46:515 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.uiautomator2.server.test'
+2018-12-27 00:43:46:624 [ADB] 'io.appium.uiautomator2.server.test' is installed
+2018-12-27 00:43:46:625 [ADB] Getting package info for 'io.appium.uiautomator2.server.test'
+2018-12-27 00:43:46:625 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.uiautomator2.server.test'
+2018-12-27 00:43:46:751 [ADB] Cannot read version codes of '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2018-12-27 00:43:46:751 [ADB] Cannot read version names of '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' and/or 'io.appium.uiautomator2.server.test'
+2018-12-27 00:43:46:751 [ADB] The current install state of '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk' is unknown. Installing anyway
+2018-12-27 00:43:46:752 [ADB] Device API level: 26
+2018-12-27 00:43:46:752 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 install -r /Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2018-12-27 00:43:50:136 [ADB] Install command stdout: Success
+2018-12-27 00:43:50:138 [UiAutomator2] Waiting up to 20000ms for instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' to be available
+2018-12-27 00:43:50:138 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell pm list instrumentation'
+2018-12-27 00:43:50:606 [UiAutomator2] Instrumentation 'io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner' available
+2018-12-27 00:43:50:607 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 wait-for-device'
+2018-12-27 00:43:50:614 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell echo ping'
+2018-12-27 00:43:50:649 [AndroidDriver] Pushing settings apk to device...
+2018-12-27 00:43:50:650 [ADB] Getting install status for io.appium.settings
+2018-12-27 00:43:50:650 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.settings'
+2018-12-27 00:43:50:737 [ADB] 'io.appium.settings' is installed
+2018-12-27 00:43:50:738 [ADB] Getting package info for 'io.appium.settings'
+2018-12-27 00:43:50:738 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys package io.appium.settings'
+2018-12-27 00:43:50:809 [ADB] The version name of the installed 'io.appium.settings' is greater or equal to the application version name ('2.11.0' >= '2.11.0')
+2018-12-27 00:43:50:810 [ADB] There is no need to install/upgrade '/Applications/Appium.app/Contents/Resources/app/node_modules/io.appium.settings/apks/settings_apk-debug.apk'
+2018-12-27 00:43:50:810 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell ps'
+2018-12-27 00:43:50:986 [ADB] Device API level: 26
+2018-12-27 00:43:50:987 [ADB] Device API level: 26
+2018-12-27 00:43:50:988 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am start -W -n io.appium.settings/.Settings -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-27 00:43:51:552 [ADB] Device API level: 26
+2018-12-27 00:43:51:552 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell appops set io.appium.settings android\:mock_location allow'
+2018-12-27 00:43:51:637 [AndroidDriver] setDeviceLanguageCountry requires language or country.
+2018-12-27 00:43:51:638 [AndroidDriver] Got language: 'null' and country: 'null'
+2018-12-27 00:43:51:639 [Logcat] Starting logcat capture
+2018-12-27 00:43:51:690 [UiAutomator2] Forwarding UiAutomator2 Server port 6790 to 8200
+2018-12-27 00:43:51:691 [ADB] Forwarding system: 8200 to device: 6790
+2018-12-27 00:43:51:691 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 forward tcp\:8200 tcp\:6790'
+2018-12-27 00:43:51:699 [UiAutomator2] No app capability. Assuming it is already on the device
+2018-12-27 00:43:51:699 [ADB] Getting install status for io.selendroid.testapp
+2018-12-27 00:43:51:699 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys package io.selendroid.testapp'
+2018-12-27 00:43:51:749 [ADB] 'io.selendroid.testapp' is installed
+2018-12-27 00:43:51:750 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am force-stop io.selendroid.testapp'
+2018-12-27 00:43:51:805 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell pm clear io.selendroid.testapp'
+2018-12-27 00:43:52:248 [AndroidDriver] Performed fast reset on the installed 'io.selendroid.testapp' application (stop and clear)
+2018-12-27 00:43:52:248 [ADB] Checking app cert for null
+2018-12-27 00:43:52:261 [ADB] 'null' does not exist
+2018-12-27 00:43:52:261 [ADB] Getting all processes with uiautomator
+2018-12-27 00:43:52:261 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell ps'
+2018-12-27 00:43:52:399 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am force-stop io.appium.uiautomator2.server'
+2018-12-27 00:43:52:530 [UiAutomator2] Starting uiautomator2 server 2.8.0
+2018-12-27 00:43:52:530 [UiAutomator2] Using UIAutomator2 server from '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-v2.8.0.apk' and test from '/Applications/Appium.app/Contents/Resources/app/node_modules/appium-uiautomator2-server/apks/appium-uiautomator2-server-debug-androidTest.apk'
+2018-12-27 00:43:52:531 [UiAutomator2] Running command: 'adb -s 44354f5747553098 shell am instrument -w io.appium.uiautomator2.server.test/android.support.test.runner.AndroidJUnitRunner'
+2018-12-27 00:43:52:534 [UiAutomator2] Waiting up to 20000ms for UiAutomator2 to be online...
+2018-12-27 00:43:52:535 [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 00:43:52:536 [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-12-27 00:43:52:569 [JSONWP Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2018-12-27 00:43:53:572 [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 00:43:53:573 [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-12-27 00:43:53:586 [JSONWP Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2018-12-27 00:43:54:588 [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 00:43:54:589 [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-12-27 00:43:54:600 [JSONWP Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2018-12-27 00:43:55:601 [JSONWP Proxy] Matched '/status' to command name 'getStatus'
+2018-12-27 00:43:55:602 [JSONWP Proxy] Proxying [GET /status] to [GET http://localhost:8200/wd/hub/status] with no body
+2018-12-27 00:43:55:670 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"SESSIONID\",\"status\":0,\"value\":\"Status Invoked\"}"
+2018-12-27 00:43:55:670 [JSONWP Proxy] Matched '/session' to command name 'createSession'
+2018-12-27 00:43:55:670 [JSONWP Proxy] Proxying [POST /session] to [POST http://localhost:8200/wd/hub/session] with body: {"desiredCapabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"Samsung"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"44354f5747553098","deviceUDID":"44354f5747553098"}}
+2018-12-27 00:43:55:688 [JSONWP Proxy] Got response with status 200: {"sessionId":"8b67b264-a788-48f4-83f8-62638578cf2d","status":0,"value":"Created Session"}
+2018-12-27 00:43:55:693 [JSONWP Proxy] Proxying [GET /appium/device/info] to [GET http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d/appium/device/info] with no body
+2018-12-27 00:43:55:724 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b67b264-a788-48f4-83f8-62638578cf2d\",\"status\":0,\"value\":{\"androidId\":\"93d7f4b8c4be2657\",\"manufacturer\":\"samsung\",\"model\":\"SM-G965U\",\"brand\":\"samsung\",\"apiVersion\":\"26\",\"platformVersion\":\"8.0.0\",\"carrierName\":\"AT&T\",\"realDisplaySize\":\"1440x2960\",\"displayDensity\":560}}"
+2018-12-27 00:43:55:724 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell dumpsys window'
+2018-12-27 00:43:55:782 [AndroidDriver] Screen already unlocked, doing nothing
+2018-12-27 00:43:55:782 [UiAutomator2] UiAutomator2 did not start the activity we were waiting for, 'io.selendroid.testapp/.HomeScreenActivity'. Starting it ourselves
+2018-12-27 00:43:55:783 [ADB] Device API level: 26
+2018-12-27 00:43:55:783 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am start -W -n io.selendroid.testapp/.HomeScreenActivity -S -a android.intent.action.MAIN -c android.intent.category.LAUNCHER -f 0x10200000'
+2018-12-27 00:43:56:493 [JSONWP Proxy] Proxying [GET /appium/device/pixel_ratio] to [GET http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d/appium/device/pixel_ratio] with body: {}
+2018-12-27 00:43:56:511 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b67b264-a788-48f4-83f8-62638578cf2d\",\"status\":0,\"value\":3.5}"
+2018-12-27 00:43:56:513 [JSONWP Proxy] Matched '/appium/device/system_bars' to command name 'getSystemBars'
+2018-12-27 00:43:56:514 [JSONWP Proxy] Proxying [GET /appium/device/system_bars] to [GET http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d/appium/device/system_bars] with body: {}
+2018-12-27 00:43:56:531 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b67b264-a788-48f4-83f8-62638578cf2d\",\"status\":0,\"value\":{\"statusBar\":84}}"
+2018-12-27 00:43:56:532 [JSONWP Proxy] Matched '/window/current/size' to command name 'getWindowSize'
+2018-12-27 00:43:56:532 [JSONWP Proxy] Proxying [GET /window/current/size] to [GET http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d/window/current/size] with body: {}
+2018-12-27 00:43:56:549 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b67b264-a788-48f4-83f8-62638578cf2d\",\"status\":0,\"value\":{\"height\":2792,\"width\":1440}}"
+2018-12-27 00:43:56:550 [Appium] New AndroidUiautomator2Driver session created successfully, session ead4b8b1-b176-4ad3-9419-e2177967730f added to master session list
+2018-12-27 00:43:56:551 [BaseDriver] Event 'newSessionStarted' logged at 1545900236551 (00:43:56 GMT-0800 (Pacific Standard Time))
+2018-12-27 00:43:56:552 [W3C (ead4b8b1)] Cached the protocol value 'W3C' for the new session ead4b8b1-b176-4ad3-9419-e2177967730f
+2018-12-27 00:43:56:553 [W3C (ead4b8b1)] Responding to client with driver.createSession() result: {"capabilities":{"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"Samsung"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"44354f5747553098","deviceUDID":"44354f5747553098","deviceApiLevel":26,"platformVersion":"8.0.0","deviceScreenSize":"1440x2960","deviceScreenDensity":560,"deviceModel":"SM-G965U","deviceManufacturer":"samsung","pixelRatio":3.5,"statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2708}}}
+2018-12-27 00:43:56:554 [HTTP] <-- POST /wd/hub/session 200 11454 ms - 889
+2018-12-27 00:43:56:555 [HTTP] 
+2018-12-27 00:43:56:584 [HTTP] --> GET /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f
+2018-12-27 00:43:56:585 [HTTP] {}
+2018-12-27 00:43:56:585 [W3C (ead4b8b1)] Calling AppiumDriver.getSession() with args: ["ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:43:56:589 [UiAutomator2] Getting session details from server to mix in
+2018-12-27 00:43:56:589 [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-12-27 00:43:56:589 [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d] with body: {}
+2018-12-27 00:43:56:604 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b67b264-a788-48f4-83f8-62638578cf2d\",\"status\":0,\"value\":{}}"
+2018-12-27 00:43:56:605 [W3C (ead4b8b1)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"Samsung"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"44354f5747553098","deviceUDID":"44354f5747553098","deviceApiLevel":26,"platformVersion":"8.0.0","deviceScreenSize":"1440x2960","deviceScreenDensity":560,"deviceModel":"SM-G965U","deviceManufacturer":"samsung","pixelRatio":3.5,"statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2708}}
+2018-12-27 00:43:56:606 [HTTP] <-- GET /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f 200 21 ms - 821
+2018-12-27 00:43:56:606 [HTTP] 
+2018-12-27 00:43:56:612 [HTTP] --> GET /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f
+2018-12-27 00:43:56:612 [HTTP] {}
+2018-12-27 00:43:56:612 [W3C (ead4b8b1)] Calling AppiumDriver.getSession() with args: ["ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:43:56:613 [UiAutomator2] Getting session details from server to mix in
+2018-12-27 00:43:56:613 [JSONWP Proxy] Matched '/' to command name 'getSession'
+2018-12-27 00:43:56:613 [JSONWP Proxy] Proxying [GET /] to [GET http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d] with body: {}
+2018-12-27 00:43:56:625 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b67b264-a788-48f4-83f8-62638578cf2d\",\"status\":0,\"value\":{}}"
+2018-12-27 00:43:56:626 [W3C (ead4b8b1)] Responding to client with driver.getSession() result: {"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"Samsung"},"platformName":"android","appActivity":".HomeScreenActivity","appPackage":"io.selendroid.testapp","automationName":"UiAutomator2","deviceName":"44354f5747553098","deviceUDID":"44354f5747553098","deviceApiLevel":26,"platformVersion":"8.0.0","deviceScreenSize":"1440x2960","deviceScreenDensity":560,"deviceModel":"SM-G965U","deviceManufacturer":"samsung","pixelRatio":3.5,"statBarHeight":84,"viewportRect":{"left":0,"top":84,"width":1440,"height":2708}}
+2018-12-27 00:43:56:627 [HTTP] <-- GET /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f 200 15 ms - 821
+2018-12-27 00:43:56:628 [HTTP] 
+2018-12-27 00:43:56:635 [HTTP] --> POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/timeouts
+2018-12-27 00:43:56:635 [HTTP] {"implicit":10000}
+2018-12-27 00:43:56:636 [W3C (ead4b8b1)] Calling AppiumDriver.timeouts() with args: [null,null,null,null,10000,"ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:43:56:637 [BaseDriver] W3C timeout argument: {"implicit":10000}}
+2018-12-27 00:43:56:638 [BaseDriver] Set implicit wait to 10000ms
+2018-12-27 00:43:56:638 [W3C (ead4b8b1)] Responding to client with driver.timeouts() result: null
+2018-12-27 00:43:56:638 [HTTP] <-- POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/timeouts 200 3 ms - 14
+2018-12-27 00:43:56:639 [HTTP] 
+2018-12-27 00:43:56:644 [HTTP] --> POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/element
+2018-12-27 00:43:56:644 [HTTP] {"using":"id","value":"io.selendroid.testapp:id/my_text_field"}
+2018-12-27 00:43:56:645 [W3C (ead4b8b1)] Calling AppiumDriver.findElement() with args: ["id","io.selendroid.testapp:id/my_text_field","ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:43:56:646 [BaseDriver] Valid locator strategies for this request: xpath, id, class name, accessibility id, -android uiautomator
+2018-12-27 00:43:56:646 [BaseDriver] Waiting up to 10000 ms for condition
+2018-12-27 00:43:56:647 [JSONWP Proxy] Matched '/element' to command name 'findElement'
+2018-12-27 00:43:56:647 [JSONWP Proxy] Proxying [POST /element] to [POST http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d/element] with body: {"strategy":"id","selector":"io.selendroid.testapp:id/my_text_field","context":"","multiple":false}
+2018-12-27 00:43:57:337 [JSONWP Proxy] Got response with status 200: {"sessionId":"8b67b264-a788-48f4-83f8-62638578cf2d","status":0,"value":{"ELEMENT":"8ed10ea7-39d1-4997-8efa-dd8ad926669b"}}
+2018-12-27 00:43:57:338 [W3C (ead4b8b1)] Responding to client with driver.findElement() result: {"element-6066-11e4-a52e-4f735466cecf":"8ed10ea7-39d1-4997-8efa-dd8ad926669b"}
+2018-12-27 00:43:57:338 [HTTP] <-- POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/element 200 694 ms - 88
+2018-12-27 00:43:57:338 [HTTP] 
+2018-12-27 00:43:57:348 [HTTP] --> POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/element/8ed10ea7-39d1-4997-8efa-dd8ad926669b/click
+2018-12-27 00:43:57:348 [HTTP] {"id":"8ed10ea7-39d1-4997-8efa-dd8ad926669b"}
+2018-12-27 00:43:57:349 [W3C (ead4b8b1)] Calling AppiumDriver.click() with args: ["8ed10ea7-39d1-4997-8efa-dd8ad926669b","ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:43:57:350 [JSONWP Proxy] Matched '/element/8ed10ea7-39d1-4997-8efa-dd8ad926669b/click' to command name 'click'
+2018-12-27 00:43:57:350 [JSONWP Proxy] Proxying [POST /element/8ed10ea7-39d1-4997-8efa-dd8ad926669b/click] to [POST http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d/element/8ed10ea7-39d1-4997-8efa-dd8ad926669b/click] with body: {"element":"8ed10ea7-39d1-4997-8efa-dd8ad926669b"}
+2018-12-27 00:43:57:444 [JSONWP Proxy] Got response with status 200: {"sessionId":"8b67b264-a788-48f4-83f8-62638578cf2d","status":0,"value":true}
+2018-12-27 00:43:57:445 [W3C (ead4b8b1)] Responding to client with driver.click() result: true
+2018-12-27 00:43:57:445 [HTTP] <-- POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/element/8ed10ea7-39d1-4997-8efa-dd8ad926669b/click 200 97 ms - 14
+2018-12-27 00:43:57:446 [HTTP] 
+2018-12-27 00:43:57:461 [HTTP] --> POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/actions
+2018-12-27 00:43:57:461 [HTTP] {"actions":[{"type":"key","actions":[{"type":"keyDown","value":"A"},{"type":"keyUp","value":"A"},{"type":"keyDown","value":"p"},{"type":"keyUp","value":"p"},{"type":"keyDown","value":"p"},{"type":"keyUp","value":"p"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"m"},{"type":"keyUp","value":"m"}],"id":"default keyboard"}]}
+2018-12-27 00:43:57:463 [W3C (ead4b8b1)] Calling AppiumDriver.performActions() with args: [[{"type":"key","actions":[{"type":"keyDown","value":"A"},{"type":"keyUp","value":"A"},{"type":"keyDown","value":"p"},{"type":"keyUp","value":"p"},{"type":"keyDown","value":"p"},{"type":"keyUp","value":"p"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"m"},{"type":"keyUp","value":"m"}],"id":"default keyboard"}],"ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:43:57:464 [UiAutomator2] Received the following W3C actions: [
+2018-12-27 00:43:57:464 [UiAutomator2]   {
+2018-12-27 00:43:57:464 [UiAutomator2]     "type": "key",
+2018-12-27 00:43:57:464 [UiAutomator2]     "actions": [
+2018-12-27 00:43:57:464 [UiAutomator2]       {
+2018-12-27 00:43:57:464 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:464 [UiAutomator2]         "value": "A"
+2018-12-27 00:43:57:465 [UiAutomator2]       },
+2018-12-27 00:43:57:465 [UiAutomator2]       {
+2018-12-27 00:43:57:465 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:465 [UiAutomator2]         "value": "A"
+2018-12-27 00:43:57:465 [UiAutomator2]       },
+2018-12-27 00:43:57:465 [UiAutomator2]       {
+2018-12-27 00:43:57:465 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:465 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:466 [UiAutomator2]       },
+2018-12-27 00:43:57:466 [UiAutomator2]       {
+2018-12-27 00:43:57:466 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:466 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:466 [UiAutomator2]       },
+2018-12-27 00:43:57:466 [UiAutomator2]       {
+2018-12-27 00:43:57:466 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:467 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:467 [UiAutomator2]       },
+2018-12-27 00:43:57:467 [UiAutomator2]       {
+2018-12-27 00:43:57:467 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:467 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:467 [UiAutomator2]       },
+2018-12-27 00:43:57:467 [UiAutomator2]       {
+2018-12-27 00:43:57:467 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:468 [UiAutomator2]         "value": "i"
+2018-12-27 00:43:57:468 [UiAutomator2]       },
+2018-12-27 00:43:57:468 [UiAutomator2]       {
+2018-12-27 00:43:57:468 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:468 [UiAutomator2]         "value": "i"
+2018-12-27 00:43:57:468 [UiAutomator2]       },
+2018-12-27 00:43:57:468 [UiAutomator2]       {
+2018-12-27 00:43:57:468 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:469 [UiAutomator2]         "value": "u"
+2018-12-27 00:43:57:469 [UiAutomator2]       },
+2018-12-27 00:43:57:469 [UiAutomator2]       {
+2018-12-27 00:43:57:469 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:469 [UiAutomator2]         "value": "u"
+2018-12-27 00:43:57:469 [UiAutomator2]       },
+2018-12-27 00:43:57:469 [UiAutomator2]       {
+2018-12-27 00:43:57:470 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:470 [UiAutomator2]         "value": "m"
+2018-12-27 00:43:57:470 [UiAutomator2]       },
+2018-12-27 00:43:57:470 [UiAutomator2]       {
+2018-12-27 00:43:57:470 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:470 [UiAutomator2]         "value": "m"
+2018-12-27 00:43:57:470 [UiAutomator2]       }
+2018-12-27 00:43:57:471 [UiAutomator2]     ],
+2018-12-27 00:43:57:471 [UiAutomator2]     "id": "default keyboard"
+2018-12-27 00:43:57:471 [UiAutomator2]   }
+2018-12-27 00:43:57:471 [UiAutomator2] ]
+2018-12-27 00:43:57:471 [UiAutomator2] Preprocessed actions: [
+2018-12-27 00:43:57:474 [UiAutomator2]   {
+2018-12-27 00:43:57:474 [UiAutomator2]     "type": "key",
+2018-12-27 00:43:57:474 [UiAutomator2]     "actions": [
+2018-12-27 00:43:57:474 [UiAutomator2]       {
+2018-12-27 00:43:57:474 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:475 [UiAutomator2]         "value": "A"
+2018-12-27 00:43:57:475 [UiAutomator2]       },
+2018-12-27 00:43:57:475 [UiAutomator2]       {
+2018-12-27 00:43:57:475 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:475 [UiAutomator2]         "value": "A"
+2018-12-27 00:43:57:475 [UiAutomator2]       },
+2018-12-27 00:43:57:475 [UiAutomator2]       {
+2018-12-27 00:43:57:476 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:476 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:476 [UiAutomator2]       },
+2018-12-27 00:43:57:476 [UiAutomator2]       {
+2018-12-27 00:43:57:476 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:476 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:476 [UiAutomator2]       },
+2018-12-27 00:43:57:477 [UiAutomator2]       {
+2018-12-27 00:43:57:477 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:477 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:477 [UiAutomator2]       },
+2018-12-27 00:43:57:477 [UiAutomator2]       {
+2018-12-27 00:43:57:478 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:478 [UiAutomator2]         "value": "p"
+2018-12-27 00:43:57:478 [UiAutomator2]       },
+2018-12-27 00:43:57:478 [UiAutomator2]       {
+2018-12-27 00:43:57:478 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:478 [UiAutomator2]         "value": "i"
+2018-12-27 00:43:57:479 [UiAutomator2]       },
+2018-12-27 00:43:57:479 [UiAutomator2]       {
+2018-12-27 00:43:57:479 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:479 [UiAutomator2]         "value": "i"
+2018-12-27 00:43:57:479 [UiAutomator2]       },
+2018-12-27 00:43:57:479 [UiAutomator2]       {
+2018-12-27 00:43:57:479 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:480 [UiAutomator2]         "value": "u"
+2018-12-27 00:43:57:480 [UiAutomator2]       },
+2018-12-27 00:43:57:480 [UiAutomator2]       {
+2018-12-27 00:43:57:480 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:480 [UiAutomator2]         "value": "u"
+2018-12-27 00:43:57:480 [UiAutomator2]       },
+2018-12-27 00:43:57:480 [UiAutomator2]       {
+2018-12-27 00:43:57:481 [UiAutomator2]         "type": "keyDown",
+2018-12-27 00:43:57:481 [UiAutomator2]         "value": "m"
+2018-12-27 00:43:57:481 [UiAutomator2]       },
+2018-12-27 00:43:57:481 [UiAutomator2]       {
+2018-12-27 00:43:57:481 [UiAutomator2]         "type": "keyUp",
+2018-12-27 00:43:57:481 [UiAutomator2]         "value": "m"
+2018-12-27 00:43:57:481 [UiAutomator2]       }
+2018-12-27 00:43:57:481 [UiAutomator2]     ],
+2018-12-27 00:43:57:482 [UiAutomator2]     "id": "default keyboard"
+2018-12-27 00:43:57:482 [UiAutomator2]   }
+2018-12-27 00:43:57:482 [UiAutomator2] ]
+2018-12-27 00:43:57:482 [JSONWP Proxy] Matched '/actions' to command name 'performActions'
+2018-12-27 00:43:57:483 [JSONWP Proxy] Proxying [POST /actions] to [POST http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d/actions] with body: {"actions":[{"type":"key","actions":[{"type":"keyDown","value":"A"},{"type":"keyUp","value":"A"},{"type":"keyDown","value":"p"},{"type":"keyUp","value":"p"},{"type":"keyDown","value":"p"},{"type":"keyUp","value":"p"},{"type":"keyDown","value":"i"},{"type":"keyUp","value":"i"},{"type":"keyDown","value":"u"},{"type":"keyUp","value":"u"},{"type":"keyDown","value":"m"},{"type":"keyUp","value":"m"}],"id":"default keyboard"}]}
+2018-12-27 00:43:57:804 [JSONWP Proxy] Got response with status 200: {"sessionId":"8b67b264-a788-48f4-83f8-62638578cf2d","status":0,"value":"OK"}
+2018-12-27 00:43:57:805 [W3C (ead4b8b1)] Responding to client with driver.performActions() result: "OK"
+2018-12-27 00:43:57:805 [HTTP] <-- POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/actions 200 344 ms - 14
+2018-12-27 00:43:57:805 [HTTP] 
+2018-12-27 00:43:57:812 [HTTP] --> POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/appium/device/toggle_airplane_mode
+2018-12-27 00:43:57:812 [HTTP] {}
+2018-12-27 00:43:57:815 [W3C (ead4b8b1)] Calling AppiumDriver.toggleFlightMode() with args: ["ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:43:57:816 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell settings get global airplane_mode_on'
+2018-12-27 00:43:57:923 [AndroidDriver] Turning flight mode off
+2018-12-27 00:43:57:924 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell settings put global airplane_mode_on 0'
+2018-12-27 00:43:58:007 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false'
+2018-12-27 00:43:58:083 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false'
+2018-12-27 00:43:58:188 [W3C (ead4b8b1)] Encountered internal error running command: Error: Error executing adbExec. Original error: 'Command '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am broadcast -a android.intent.action.AIRPLANE_MODE --ez state false' exited with code 255'; Stderr: 'Security exception: Permission Denial: not allowed to send broadcast android.intent.action.AIRPLANE_MODE from pid=17249, uid=2000
+2018-12-27 00:43:58:189 [W3C (ead4b8b1)] 
+2018-12-27 00:43:58:189 [W3C (ead4b8b1)] java.lang.SecurityException: Permission Denial: not allowed to send broadcast android.intent.action.AIRPLANE_MODE from pid=17249, uid=2000
+2018-12-27 00:43:58:189 [W3C (ead4b8b1)] 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:23495)
+2018-12-27 00:43:58:189 [W3C (ead4b8b1)] 	at com.android.server.am.ActivityManagerService.broadcastIntentLocked(ActivityManagerService.java:23344)
+2018-12-27 00:43:58:189 [W3C (ead4b8b1)] 	at com.android.server.am.ActivityManagerService.broadcastIntent(ActivityManagerService.java:24173)
+2018-12-27 00:43:58:189 [W3C (ead4b8b1)] 	at com.android.server.am.ActivityManagerShellCommand.runSendBroadcast(ActivityManagerShellCommand.java:642)
+2018-12-27 00:43:58:189 [W3C (ead4b8b1)] 	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:155)
+2018-12-27 00:43:58:190 [W3C (ead4b8b1)] 	at android.os.ShellCommand.exec(ShellCommand.java:96)
+2018-12-27 00:43:58:190 [W3C (ead4b8b1)] 	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:18813)
+2018-12-27 00:43:58:190 [W3C (ead4b8b1)] 	at android.os.Binder.shellCommand(Binder.java:581)
+2018-12-27 00:43:58:190 [W3C (ead4b8b1)] 	at android.os.Binder.onTransact(Binder.java:481)
+2018-12-27 00:43:58:190 [W3C (ead4b8b1)] 	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:4777)
+2018-12-27 00:43:58:190 [W3C (ead4b8b1)] 	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:3889)
+2018-12-27 00:43:58:190 [W3C (ead4b8b1)] 	at android.os.Binder.execTransact(Binder.java:682)'; Code: '255'
+2018-12-27 00:43:58:191 [W3C (ead4b8b1)]     at execFunc (/Applications/Appium.app/Contents/Resources/app/node_modules/appium-adb/lib/tools/system-calls.js:326:13)
+2018-12-27 00:43:58:202 [HTTP] <-- POST /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f/appium/device/toggle_airplane_mode 500 389 ms - 3637
+2018-12-27 00:43:58:202 [HTTP] 
+2018-12-27 00:44:01:223 [HTTP] --> DELETE /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f
+2018-12-27 00:44:01:224 [HTTP] {}
+2018-12-27 00:44:01:224 [W3C (ead4b8b1)] Calling AppiumDriver.deleteSession() with args: ["ead4b8b1-b176-4ad3-9419-e2177967730f"]
+2018-12-27 00:44:01:224 [BaseDriver] Event 'quitSessionRequested' logged at 1545900241224 (00:44:01 GMT-0800 (Pacific Standard Time))
+2018-12-27 00:44:01:225 [Appium] Removing session ead4b8b1-b176-4ad3-9419-e2177967730f from our master session list
+2018-12-27 00:44:01:225 [UiAutomator2] Deleting UiAutomator2 session
+2018-12-27 00:44:01:226 [UiAutomator2] Deleting UiAutomator2 server session
+2018-12-27 00:44:01:227 [JSONWP Proxy] Matched '/' to command name 'deleteSession'
+2018-12-27 00:44:01:227 [JSONWP Proxy] Proxying [DELETE /] to [DELETE http://localhost:8200/wd/hub/session/8b67b264-a788-48f4-83f8-62638578cf2d] with no body
+2018-12-27 00:44:01:287 [JSONWP Proxy] Got response with status 200: "{\"sessionId\":\"8b67b264-a788-48f4-83f8-62638578cf2d\",\"status\":0,\"value\":\"Session deleted\"}"
+2018-12-27 00:44:01:287 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 shell am force-stop io.selendroid.testapp'
+2018-12-27 00:44:01:444 [Logcat] Stopping logcat capture
+2018-12-27 00:44:01:447 [ADB] Removing forwarded port socket connection: 8200 
+2018-12-27 00:44:01:448 [ADB] Running '/Users/phildolganov/Library/Android/sdk/platform-tools/adb -P 5037 -s 44354f5747553098 forward --remove tcp\:8200'
+2018-12-27 00:44:01:456 [ADB] Device API level: 26
+2018-12-27 00:44:01:456 [BaseDriver] Event 'quitSessionFinished' logged at 1545900241456 (00:44:01 GMT-0800 (Pacific Standard Time))
+2018-12-27 00:44:01:456 [W3C (ead4b8b1)] Received response: null
+2018-12-27 00:44:01:457 [W3C (ead4b8b1)] But deleting session, so not returning
+2018-12-27 00:44:01:457 [W3C (ead4b8b1)] Responding to client with driver.deleteSession() result: null
+2018-12-27 00:44:01:458 [HTTP] <-- DELETE /wd/hub/session/ead4b8b1-b176-4ad3-9419-e2177967730f 200 234 ms - 14
+2018-12-27 00:44:01:458 [HTTP] 
+2018-12-27 00:44:01:461 [Appium] Received SIGTERM - shutting down
+2018-12-27 00:44:01:465 uncaughtException: write EPIPE
+Error: write EPIPE
+    at WriteWrap.afterWrite (net.js:799:14)
