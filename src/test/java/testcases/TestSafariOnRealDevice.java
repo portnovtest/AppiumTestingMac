@@ -20,12 +20,12 @@ public class TestSafariOnRealDevice {
 
     public static void main(String[] args) throws MalformedURLException, InterruptedException {
 
-//        service = AppiumDriverLocalService.buildService(
-//                new AppiumServiceBuilder().usingDriverExecutable(new File("/usr/local/bin/node"))
-//                        .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/main.js"))
-//                        .withArgument(GeneralServerFlag.LOCAL_TIMEZONE)
-//                        .withLogFile(new File("/Users/phildolganov/IdeaProjects/AppiumTestingMac/src/test/resources/logs/Appium.log")));
-//        service.start();
+        service = AppiumDriverLocalService.buildService(
+                new AppiumServiceBuilder().usingDriverExecutable(new File("/usr/local/bin/node"))
+                        .withAppiumJS(new File("/Applications/Appium.app/Contents/Resources/app/node_modules/appium/build/lib/main.js"))
+                        .withArgument(GeneralServerFlag.LOCAL_TIMEZONE)
+                        .withLogFile(new File("/Users/phildolganov/IdeaProjects/AppiumTestingMac/src/test/resources/logs/Appium.log")));
+        service.start();
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "safari");
         capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 6 Plus");
@@ -34,7 +34,6 @@ public class TestSafariOnRealDevice {
         capabilities.setCapability(MobileCapabilityType.UDID,"8c6d19d745f1b8902d5d72f744117dfd51fd7c56");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
         driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
-
         driver.get("http://google.com");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
@@ -43,6 +42,6 @@ public class TestSafariOnRealDevice {
         Thread.sleep(3000);
 
         driver.quit();
-        //service.stop();
+        service.stop();
     }
 }
