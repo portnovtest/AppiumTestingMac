@@ -28,9 +28,9 @@ public class TestSafariSimulator {
         service.start();
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability(MobileCapabilityType.BROWSER_NAME, "safari");
-        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 7 Plus");
+        capabilities.setCapability(MobileCapabilityType.DEVICE_NAME, "iPhone 8 Plus");
         capabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, "iOS");
-        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12.1");
+        capabilities.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12.2");
         //capabilities.setCapability(MobileCapabilityType.UDID,"9AA0F53C-1F42-4E5C-AE9E-3B5F7F16C54C");
         capabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME, "XCUITest");
         driver = new IOSDriver(new URL("http://127.0.0.1:4723/wd/hub"),capabilities);
