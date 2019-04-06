@@ -1,1 +1,2484 @@
-2019-03-29 12:31:34:347 [Appium] Welcome to Appium v1.12.1
+2019-03-29 12:31:39:253 [Appium] Welcome to Appium v1.12.1
+2019-03-29 12:31:39:254 [Appium] Non-default server args:
+2019-03-29 12:31:39:255 [Appium]   logFile: /Users/phildolganov/IdeaProjects/AppiumTestingMac/src/test/resources/logs/Appium.log
+2019-03-29 12:31:39:255 [Appium]   localTimezone: true
+2019-03-29 12:31:39:280 [Appium] Appium REST http interface listener started on 0.0.0.0:4723
+2019-03-29 12:31:39:513 [HTTP] --> GET /wd/hub/status
+2019-03-29 12:31:39:513 [HTTP] {}
+2019-03-29 12:31:39:515 [GENERIC] Calling AppiumDriver.getStatus() with args: []
+2019-03-29 12:31:39:516 [GENERIC] Responding to client with driver.getStatus() result: {"build":{"version":"1.12.1"}}
+2019-03-29 12:31:39:520 [HTTP] <-- GET /wd/hub/status 200 6 ms - 68
+2019-03-29 12:31:39:520 [HTTP] 
+2019-03-29 12:31:39:938 [HTTP] --> POST /wd/hub/session
+2019-03-29 12:31:39:939 [HTTP] {"desiredCapabilities":{"platformVersion":"12.2","automationName":"XCUITest","browserName":"safari","platformName":"iOS","udid":"8c6d19d745f1b8902d5d72f744117dfd51fd7c56","deviceName":"iPhone 6 Plus"},"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","browserName":"safari","appium:deviceName":"iPhone 6 Plus","platformName":"ios","appium:platformVersion":"12.2","appium:udid":"8c6d19d745f1b8902d5d72f744117dfd51fd7c56"}]}}
+2019-03-29 12:31:39:939 [W3C] Calling AppiumDriver.createSession() with args: [{"platformVersion":"12.2","automationName":"XCUITest","browserName":"safari","platformName":"iOS","udid":"8c6d19d745f1b8902d5d72f744117dfd51fd7c56","deviceName":"iPhone 6 Plus"},null,{"firstMatch":[{"appium:automationName":"XCUITest","browserName":"safari","appium:deviceName":"iPhone 6 Plus","platformName":"ios","appium:platformVersion":"12.2","appium:udid":"8c6d19d745f1b8902d5d72f744117dfd51fd7c56"}]}]
+2019-03-29 12:31:39:939 [BaseDriver] Event 'newSessionRequested' logged at 1553887899939 (12:31:39 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:31:40:086 [Appium] Appium v1.12.1 creating new XCUITestDriver (v2.110.1) session
+2019-03-29 12:31:40:087 [Appium] Capabilities:
+2019-03-29 12:31:40:087 [Appium]   browserName: safari
+2019-03-29 12:31:40:087 [Appium]   platformName: ios
+2019-03-29 12:31:40:087 [Appium]   automationName: XCUITest
+2019-03-29 12:31:40:087 [Appium]   deviceName: iPhone 6 Plus
+2019-03-29 12:31:40:088 [Appium]   platformVersion: 12.2
+2019-03-29 12:31:40:088 [Appium]   udid: 8c6d19d745f1b8902d5d72f744117dfd51fd7c56
+2019-03-29 12:31:40:089 [BaseDriver] W3C capabilities {"alwaysMatch":{"browserNam... and MJSONWP desired capabilities {"platformVersion":"12.2","... were provided
+2019-03-29 12:31:40:089 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"browserNam...
+2019-03-29 12:31:40:094 [BaseDriver] Session created with session id: 44e7cdbd-64da-4c7b-81e4-52f08550fd85
+2019-03-29 12:31:40:133 [XCUITest] Current user: 'phildolganov'
+2019-03-29 12:31:40:139 [XCUITest] Available devices: 8c6d19d745f1b8902d5d72f744117dfd51fd7c56
+2019-03-29 12:31:40:139 [XCUITest] Creating iDevice object with udid '8c6d19d745f1b8902d5d72f744117dfd51fd7c56'
+2019-03-29 12:31:40:139 [XCUITest] Determining device to run tests on: udid: '8c6d19d745f1b8902d5d72f744117dfd51fd7c56', real device: true
+2019-03-29 12:31:40:357 [XCUITest] Xcode version set to '10.2' (tools v10.2.0.0.1.1552586384)
+2019-03-29 12:31:40:364 [XCUITest] iOS SDK Version set to '12.2'
+2019-03-29 12:31:40:365 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1553887900364 (12:31:40 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:31:40:365 [XCUITest] Safari test requested
+2019-03-29 12:31:40:365 [BaseDriver] Event 'appConfigured' logged at 1553887900365 (12:31:40 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:31:40:366 [BaseDriver] Event 'resetStarted' logged at 1553887900366 (12:31:40 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:31:40:366 [XCUITest] Reset: running ios real device reset flow
+2019-03-29 12:31:40:366 [BaseDriver] Event 'resetComplete' logged at 1553887900366 (12:31:40 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:31:40:368 [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2019-03-29 12:31:40:368 [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
+2019-03-29 12:31:40:564 [BaseDriver] Event 'logCaptureStarted' logged at 1553887900564 (12:31:40 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:31:40:565 [XCUITest] Setting up real device
+2019-03-29 12:31:40:565 [XCUITest] Using WDA path: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2019-03-29 12:31:40:566 [XCUITest] Using WDA agent: '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2019-03-29 12:31:40:690 [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2019-03-29 12:31:40:692 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:40:693 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:40:707 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:40:708 [XCUITest] WDA is not listening at 'http://localhost:8100/'
+2019-03-29 12:31:40:709 [XCUITest] WDA is currently not running. There is nothing to cache
+2019-03-29 12:31:40:709 [XCUITest] Trying to start WebDriverAgent 1 times with 10000ms interval
+2019-03-29 12:31:40:709 [XCUITest] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2019-03-29 12:31:40:710 [BaseDriver] Event 'wdaStartAttempted' logged at 1553887900709 (12:31:40 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:31:40:710 [XCUITest] Launching WebDriverAgent on the device
+2019-03-29 12:31:40:711 [XCUITest] Carthage found: '/usr/local/bin/carthage'
+2019-03-29 12:31:40:712 [XCUITest] Killing running processes 'xcodebuild.*8c6d19d745f1b8902d5d72f744117dfd51fd7c56, iproxy 8100' for the device 8c6d19d745f1b8902d5d72f744117dfd51fd7c56...
+2019-03-29 12:31:40:878 [XCUITest] 'pgrep -nif xcodebuild.*8c6d19d745f1b8902d5d72f744117dfd51fd7c56' didn't detect any matching processes. Return code: 1
+2019-03-29 12:31:40:898 [XCUITest] 'pgrep -nif iproxy 8100' didn't detect any matching processes. Return code: 1
+2019-03-29 12:31:40:898 [XCUITest] Starting iproxy to forward traffic from local port 8100 to device port 8100 over USB for the device 8c6d19d745f1b8902d5d72f744117dfd51fd7c56
+2019-03-29 12:31:45:905 [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -destination id=8c6d19d745f1b8902d5d72f744117dfd51fd7c56 IPHONEOS_DEPLOYMENT_TARGET=12.2 GCC_TREAT_WARNINGS_AS_ERRORS=0' in directory '/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2019-03-29 12:31:45:906 [XCUITest] Output from xcodebuild will not be logged. To change this, use 'showXcodeLog' desired capability
+2019-03-29 12:31:46:360 [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+2019-03-29 12:31:46:361 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:46:361 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:46:370 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:47:372 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:47:372 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:47:377 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:48:379 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:48:379 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:48:386 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:49:387 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:49:388 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:49:393 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:50:398 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:50:398 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:50:403 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:51:405 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:51:405 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:51:410 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:52:412 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:52:413 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:52:417 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:53:418 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:53:418 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:53:423 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:54:423 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:54:423 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:54:427 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:55:105 [XCUITest] Log file for xcodebuild test: /Users/phildolganov/Library/Developer/Xcode/DerivedData/WebDriverAgent-dikkwtrisltbeobjmfvpthwwekvs/Logs/Test/Test-WebDriverAgentRunner-2019.03.29_12-31-47--0700.xcresult/2_Test/Diagnostics/WebDriverAgentRunner-5DCA26E6-07C7-48B6-AEA4-07719DCD528A/WebDriverAgentRunner-94262717-5075-46A6-9FD7-72AE3EEEEAC7/Session-WebDriverAgentRunner-2019-03-29_123155-epQmJW.log
+2019-03-29 12:31:55:430 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:55:430 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:55:436 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:56:436 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:56:437 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:56:442 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:57:442 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:57:442 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:57:446 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:58:447 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:58:447 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:58:451 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:31:59:453 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:31:59:453 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:31:59:457 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:32:00:459 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:32:00:460 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:32:00:464 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:32:01:466 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:32:01:466 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:32:01:469 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:32:02:471 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:32:02:472 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:32:02:476 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:32:03:478 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:32:03:479 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:32:03:484 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-03-29 12:32:04:486 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-03-29 12:32:04:487 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-03-29 12:32:04:502 [WD Proxy] Got response with status 200: "{\n  \"value\" : {\n    \"state\" : \"success\",\n    \"os\" : {\n      \"name\" : \"iOS\",\n      \"version\" : \"12.2\",\n      \"sdkVersion\" : \"12.2\"\n    },\n    \"ios\" : {\n      \"simulatorVersion\" : \"12.2\",\n      \"ip\" : \"192.168.1.179\"\n    },\n    \"build\" : {\n      \"upgradedAt\" : \"1553881227406\",\n      \"time\" : \"Mar 29 2019 12:31:48\",\n      \"productBundleIdentifier\" : \"com.facebook.WebDriverAgentRunner\"\n    }\n  },\n  \"sessionId\" : \"D3954120-F6A9-4348-A671-ACB8F4386F82\",\n  \"status\" : 0\n}"
+2019-03-29 12:32:04:503 [XCUITest] WebDriverAgent information:
+2019-03-29 12:32:04:503 [XCUITest] {
+2019-03-29 12:32:04:503 [XCUITest]   "state": "success",
+2019-03-29 12:32:04:504 [XCUITest]   "os": {
+2019-03-29 12:32:04:504 [XCUITest]     "name": "iOS",
+2019-03-29 12:32:04:505 [XCUITest]     "version": "12.2",
+2019-03-29 12:32:04:505 [XCUITest]     "sdkVersion": "12.2"
+2019-03-29 12:32:04:505 [XCUITest]   },
+2019-03-29 12:32:04:505 [XCUITest]   "ios": {
+2019-03-29 12:32:04:505 [XCUITest]     "simulatorVersion": "12.2",
+2019-03-29 12:32:04:505 [XCUITest]     "ip": "192.168.1.179"
+2019-03-29 12:32:04:505 [XCUITest]   },
+2019-03-29 12:32:04:505 [XCUITest]   "build": {
+2019-03-29 12:32:04:506 [XCUITest]     "upgradedAt": "1553881227406",
+2019-03-29 12:32:04:506 [XCUITest]     "time": "Mar 29 2019 12:31:48",
+2019-03-29 12:32:04:506 [XCUITest]     "productBundleIdentifier": "com.facebook.WebDriverAgentRunner"
+2019-03-29 12:32:04:506 [XCUITest]   }
+2019-03-29 12:32:04:506 [XCUITest] }
+2019-03-29 12:32:04:507 [XCUITest] WebDriverAgent successfully started after 18600ms
+2019-03-29 12:32:04:507 [BaseDriver] Event 'wdaSessionAttempted' logged at 1553887924507 (12:32:04 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:32:04:508 [XCUITest] Sending createSession command to WDA
+2019-03-29 12:32:04:509 [WD Proxy] Matched '/session' to command name 'createSession'
+2019-03-29 12:32:04:509 [WD Proxy] Proxying [POST /session] to [POST http://localhost:8100/session] with body: {"desiredCapabilities":{"bundleId":"com.apple.mobilesafari","arguments":["-u","http://appium.io"],"environment":{},"eventloopIdleDelaySec":0,"shouldWaitForQuiescence":true,"shouldUseTestManagerForVisibilityDetection":false,"maxTypingFrequency":60,"shouldUseSingletonTestManager":true}}
+2019-03-29 12:32:07:017 [WD Proxy] Got response with status 200: {"value":{"sessionId":"1B7FEF88-8746-4AF3-8AB4-A2B95CD43F45","capabilities":{"device":"iphone","browserName":"Safari","sdkVersion":"12.2","CFBundleIdentifier":"com.apple.mobilesafari"}},"sessionId":"1B7FEF88-8746-4AF3-8AB4-A2B95CD43F45","status":0}
+2019-03-29 12:32:07:018 [BaseDriver] Event 'wdaSessionStarted' logged at 1553887927018 (12:32:07 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:32:07:019 [WD Proxy] Matched '/url' to command name 'setUrl'
+2019-03-29 12:32:07:020 [WD Proxy] Proxying [POST /url] to [POST http://localhost:8100/session/1B7FEF88-8746-4AF3-8AB4-A2B95CD43F45/url] with body: {"url":"http://appium.io"}
+2019-03-29 12:33:12:445 [WD Proxy] Got response with status 200: {"value":{},"sessionId":"1B7FEF88-8746-4AF3-8AB4-A2B95CD43F45","status":0}
+2019-03-29 12:33:12:446 [BaseDriver] Event 'wdaStarted' logged at 1553887992446 (12:33:12 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:33:12:446 [XCUITest] Skipping setting of the initial display orientation. Set the "orientation" capability to either "LANDSCAPE" or "PORTRAIT", if this is an undesired behavior.
+2019-03-29 12:33:12:447 [BaseDriver] Event 'orientationSet' logged at 1553887992447 (12:33:12 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:33:12:447 [XCUITest] Waiting for initial webview
+2019-03-29 12:33:12:447 [iOS] Waiting for 3000 ms before navigating to view.
+2019-03-29 12:33:12:448 [XCUITest] Connection to WDA timed out
+2019-03-29 12:33:12:448 [iProxy] recv failed: Operation not permitted
+2019-03-29 12:33:15:450 [iOS] Navigating to most recently opened webview
+2019-03-29 12:33:15:451 [iOS] Retrieving contexts and views
+2019-03-29 12:33:15:452 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:15:453 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:15:454 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:15:457 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:15:458 [iOS] No web frames found.
+2019-03-29 12:33:15:458 [iOS] Retrieving contexts and views
+2019-03-29 12:33:15:458 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:15:459 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:15:459 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:15:462 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:15:462 [iOS] No web frames found.
+2019-03-29 12:33:15:462 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:15:964 [iOS] Retrieving contexts and views
+2019-03-29 12:33:15:964 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:15:964 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:15:965 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:15:968 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:15:969 [iOS] No web frames found.
+2019-03-29 12:33:15:969 [iOS] Retrieving contexts and views
+2019-03-29 12:33:15:969 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:15:969 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:15:970 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:15:971 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:15:972 [iOS] No web frames found.
+2019-03-29 12:33:15:972 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:16:473 [iOS] Retrieving contexts and views
+2019-03-29 12:33:16:473 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:16:473 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:16:474 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:16:476 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:16:476 [iOS] No web frames found.
+2019-03-29 12:33:16:477 [iOS] Retrieving contexts and views
+2019-03-29 12:33:16:477 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:16:477 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:16:477 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:16:480 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:16:480 [iOS] No web frames found.
+2019-03-29 12:33:16:480 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:16:985 [iOS] Retrieving contexts and views
+2019-03-29 12:33:16:986 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:16:986 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:16:986 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:16:989 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:16:989 [iOS] No web frames found.
+2019-03-29 12:33:16:990 [iOS] Retrieving contexts and views
+2019-03-29 12:33:16:990 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:16:990 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:16:990 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:16:992 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:16:992 [iOS] No web frames found.
+2019-03-29 12:33:16:992 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:17:493 [iOS] Retrieving contexts and views
+2019-03-29 12:33:17:494 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:17:494 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:17:494 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:17:496 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:17:497 [iOS] No web frames found.
+2019-03-29 12:33:17:497 [iOS] Retrieving contexts and views
+2019-03-29 12:33:17:497 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:17:497 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:17:497 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:17:499 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:17:499 [iOS] No web frames found.
+2019-03-29 12:33:17:499 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:18:003 [iOS] Retrieving contexts and views
+2019-03-29 12:33:18:004 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:18:004 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:18:004 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:18:007 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:18:007 [iOS] No web frames found.
+2019-03-29 12:33:18:007 [iOS] Retrieving contexts and views
+2019-03-29 12:33:18:007 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:18:008 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:18:008 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:18:010 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:18:010 [iOS] No web frames found.
+2019-03-29 12:33:18:010 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:18:512 [iOS] Retrieving contexts and views
+2019-03-29 12:33:18:512 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:18:512 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:18:512 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:18:515 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:18:515 [iOS] No web frames found.
+2019-03-29 12:33:18:515 [iOS] Retrieving contexts and views
+2019-03-29 12:33:18:515 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:18:516 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:18:516 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:18:518 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:18:518 [iOS] No web frames found.
+2019-03-29 12:33:18:518 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:19:022 [iOS] Retrieving contexts and views
+2019-03-29 12:33:19:022 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:19:022 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:19:023 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:19:025 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:19:025 [iOS] No web frames found.
+2019-03-29 12:33:19:025 [iOS] Retrieving contexts and views
+2019-03-29 12:33:19:026 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:19:026 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:19:026 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:19:028 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:19:028 [iOS] No web frames found.
+2019-03-29 12:33:19:029 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:19:535 [iOS] Retrieving contexts and views
+2019-03-29 12:33:19:535 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:19:535 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:19:536 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:19:538 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:19:538 [iOS] No web frames found.
+2019-03-29 12:33:19:539 [iOS] Retrieving contexts and views
+2019-03-29 12:33:19:539 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:19:541 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:19:542 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:19:543 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:19:543 [iOS] No web frames found.
+2019-03-29 12:33:19:543 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:20:047 [iOS] Retrieving contexts and views
+2019-03-29 12:33:20:047 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:20:047 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:20:048 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:20:050 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:20:050 [iOS] No web frames found.
+2019-03-29 12:33:20:050 [iOS] Retrieving contexts and views
+2019-03-29 12:33:20:050 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:20:051 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:20:051 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:20:053 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:20:053 [iOS] No web frames found.
+2019-03-29 12:33:20:053 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:20:556 [iOS] Retrieving contexts and views
+2019-03-29 12:33:20:556 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:20:557 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:20:557 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:20:560 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:20:560 [iOS] No web frames found.
+2019-03-29 12:33:20:560 [iOS] Retrieving contexts and views
+2019-03-29 12:33:20:560 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:20:560 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:20:561 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:20:562 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:20:562 [iOS] No web frames found.
+2019-03-29 12:33:20:563 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:21:063 [iOS] Retrieving contexts and views
+2019-03-29 12:33:21:064 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:21:064 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:21:066 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:21:068 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:21:068 [iOS] No web frames found.
+2019-03-29 12:33:21:068 [iOS] Retrieving contexts and views
+2019-03-29 12:33:21:069 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:21:069 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:21:069 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:21:071 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:21:071 [iOS] No web frames found.
+2019-03-29 12:33:21:071 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:21:574 [iOS] Retrieving contexts and views
+2019-03-29 12:33:21:575 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:21:575 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:21:575 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:21:578 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:21:578 [iOS] No web frames found.
+2019-03-29 12:33:21:578 [iOS] Retrieving contexts and views
+2019-03-29 12:33:21:578 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:21:578 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:21:579 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:21:580 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:21:581 [iOS] No web frames found.
+2019-03-29 12:33:21:581 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:22:086 [iOS] Retrieving contexts and views
+2019-03-29 12:33:22:086 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:22:087 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:22:087 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:22:089 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:22:090 [iOS] No web frames found.
+2019-03-29 12:33:22:090 [iOS] Retrieving contexts and views
+2019-03-29 12:33:22:090 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:22:090 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:22:090 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:22:092 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:22:092 [iOS] No web frames found.
+2019-03-29 12:33:22:093 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:22:598 [iOS] Retrieving contexts and views
+2019-03-29 12:33:22:598 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:22:599 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:22:599 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:22:601 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:22:602 [iOS] No web frames found.
+2019-03-29 12:33:22:602 [iOS] Retrieving contexts and views
+2019-03-29 12:33:22:602 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:22:602 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:22:603 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:22:605 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:22:605 [iOS] No web frames found.
+2019-03-29 12:33:22:605 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:23:109 [iOS] Retrieving contexts and views
+2019-03-29 12:33:23:109 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:23:110 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:23:110 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:23:112 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:23:113 [iOS] No web frames found.
+2019-03-29 12:33:23:113 [iOS] Retrieving contexts and views
+2019-03-29 12:33:23:113 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:23:113 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:23:113 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:23:115 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:23:115 [iOS] No web frames found.
+2019-03-29 12:33:23:115 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:23:621 [iOS] Retrieving contexts and views
+2019-03-29 12:33:23:622 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:23:622 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:23:622 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:23:625 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:23:625 [iOS] No web frames found.
+2019-03-29 12:33:23:625 [iOS] Retrieving contexts and views
+2019-03-29 12:33:23:625 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:23:625 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:23:626 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:23:627 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:23:627 [iOS] No web frames found.
+2019-03-29 12:33:23:628 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:24:132 [iOS] Retrieving contexts and views
+2019-03-29 12:33:24:132 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:24:133 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:24:133 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:24:135 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:24:136 [iOS] No web frames found.
+2019-03-29 12:33:24:136 [iOS] Retrieving contexts and views
+2019-03-29 12:33:24:136 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:24:136 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:24:136 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:24:138 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:24:138 [iOS] No web frames found.
+2019-03-29 12:33:24:138 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:24:644 [iOS] Retrieving contexts and views
+2019-03-29 12:33:24:645 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:24:645 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:24:645 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:24:648 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:24:649 [iOS] No web frames found.
+2019-03-29 12:33:24:649 [iOS] Retrieving contexts and views
+2019-03-29 12:33:24:649 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:24:649 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:24:649 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:24:651 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:24:651 [iOS] No web frames found.
+2019-03-29 12:33:24:651 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:25:156 [iOS] Retrieving contexts and views
+2019-03-29 12:33:25:156 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:25:156 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:25:157 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:25:159 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:25:159 [iOS] No web frames found.
+2019-03-29 12:33:25:159 [iOS] Retrieving contexts and views
+2019-03-29 12:33:25:160 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:25:160 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:25:160 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:25:162 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:25:162 [iOS] No web frames found.
+2019-03-29 12:33:25:162 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:25:664 [iOS] Retrieving contexts and views
+2019-03-29 12:33:25:664 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:25:664 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:25:665 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:25:667 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:25:667 [iOS] No web frames found.
+2019-03-29 12:33:25:667 [iOS] Retrieving contexts and views
+2019-03-29 12:33:25:668 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:25:668 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:25:668 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:25:670 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:25:670 [iOS] No web frames found.
+2019-03-29 12:33:25:670 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:26:174 [iOS] Retrieving contexts and views
+2019-03-29 12:33:26:175 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:26:175 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:26:175 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:26:178 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:26:178 [iOS] No web frames found.
+2019-03-29 12:33:26:178 [iOS] Retrieving contexts and views
+2019-03-29 12:33:26:178 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:26:178 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:26:179 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:26:181 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:26:181 [iOS] No web frames found.
+2019-03-29 12:33:26:182 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:26:682 [iOS] Retrieving contexts and views
+2019-03-29 12:33:26:683 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:26:683 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:26:683 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:26:685 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:26:686 [iOS] No web frames found.
+2019-03-29 12:33:26:686 [iOS] Retrieving contexts and views
+2019-03-29 12:33:26:686 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:26:686 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:26:686 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:26:690 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:26:691 [iOS] No web frames found.
+2019-03-29 12:33:26:691 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:27:194 [iOS] Retrieving contexts and views
+2019-03-29 12:33:27:195 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:27:195 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:27:195 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:27:198 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:27:198 [iOS] No web frames found.
+2019-03-29 12:33:27:198 [iOS] Retrieving contexts and views
+2019-03-29 12:33:27:198 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:27:199 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:27:199 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:27:201 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:27:201 [iOS] No web frames found.
+2019-03-29 12:33:27:201 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:27:705 [iOS] Retrieving contexts and views
+2019-03-29 12:33:27:706 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:27:706 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:27:706 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:27:709 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:27:709 [iOS] No web frames found.
+2019-03-29 12:33:27:709 [iOS] Retrieving contexts and views
+2019-03-29 12:33:27:709 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:27:709 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:27:710 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:27:711 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:27:712 [iOS] No web frames found.
+2019-03-29 12:33:27:712 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:28:218 [iOS] Retrieving contexts and views
+2019-03-29 12:33:28:218 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:28:218 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:28:219 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:28:222 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:28:222 [iOS] No web frames found.
+2019-03-29 12:33:28:222 [iOS] Retrieving contexts and views
+2019-03-29 12:33:28:222 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:28:222 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:28:223 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:28:224 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:28:225 [iOS] No web frames found.
+2019-03-29 12:33:28:225 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:28:729 [iOS] Retrieving contexts and views
+2019-03-29 12:33:28:729 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:28:730 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:28:730 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:28:732 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:28:733 [iOS] No web frames found.
+2019-03-29 12:33:28:733 [iOS] Retrieving contexts and views
+2019-03-29 12:33:28:733 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:28:733 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:28:733 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:28:735 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:28:735 [iOS] No web frames found.
+2019-03-29 12:33:28:735 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:29:238 [iOS] Retrieving contexts and views
+2019-03-29 12:33:29:239 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:29:239 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:29:240 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:29:242 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:29:242 [iOS] No web frames found.
+2019-03-29 12:33:29:242 [iOS] Retrieving contexts and views
+2019-03-29 12:33:29:243 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:29:243 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:29:243 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:29:245 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:29:245 [iOS] No web frames found.
+2019-03-29 12:33:29:245 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:29:747 [iOS] Retrieving contexts and views
+2019-03-29 12:33:29:747 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:29:747 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:29:747 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:29:749 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:29:749 [iOS] No web frames found.
+2019-03-29 12:33:29:750 [iOS] Retrieving contexts and views
+2019-03-29 12:33:29:750 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:29:750 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:29:750 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:29:752 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:29:752 [iOS] No web frames found.
+2019-03-29 12:33:29:752 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:30:253 [iOS] Retrieving contexts and views
+2019-03-29 12:33:30:253 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:30:253 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:30:256 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:30:258 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:30:259 [iOS] No web frames found.
+2019-03-29 12:33:30:259 [iOS] Retrieving contexts and views
+2019-03-29 12:33:30:259 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:30:259 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:30:259 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:30:261 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:30:261 [iOS] No web frames found.
+2019-03-29 12:33:30:261 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:30:763 [iOS] Retrieving contexts and views
+2019-03-29 12:33:30:764 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:30:764 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:30:764 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:30:766 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:30:766 [iOS] No web frames found.
+2019-03-29 12:33:30:766 [iOS] Retrieving contexts and views
+2019-03-29 12:33:30:766 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:30:767 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:30:767 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:30:768 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:30:768 [iOS] No web frames found.
+2019-03-29 12:33:30:769 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:31:272 [iOS] Retrieving contexts and views
+2019-03-29 12:33:31:273 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:31:273 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:31:273 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:31:276 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:31:276 [iOS] No web frames found.
+2019-03-29 12:33:31:276 [iOS] Retrieving contexts and views
+2019-03-29 12:33:31:276 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:31:276 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:31:276 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:31:278 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:31:278 [iOS] No web frames found.
+2019-03-29 12:33:31:278 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:31:780 [iOS] Retrieving contexts and views
+2019-03-29 12:33:31:781 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:31:781 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:31:781 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:31:784 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:31:784 [iOS] No web frames found.
+2019-03-29 12:33:31:784 [iOS] Retrieving contexts and views
+2019-03-29 12:33:31:784 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:31:784 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:31:784 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:31:786 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:31:786 [iOS] No web frames found.
+2019-03-29 12:33:31:787 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:32:291 [iOS] Retrieving contexts and views
+2019-03-29 12:33:32:292 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:32:292 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:32:292 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:32:295 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:32:295 [iOS] No web frames found.
+2019-03-29 12:33:32:295 [iOS] Retrieving contexts and views
+2019-03-29 12:33:32:295 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:32:295 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:32:296 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:32:297 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:32:297 [iOS] No web frames found.
+2019-03-29 12:33:32:298 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:32:799 [iOS] Retrieving contexts and views
+2019-03-29 12:33:32:799 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:32:799 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:32:800 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:32:802 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:32:802 [iOS] No web frames found.
+2019-03-29 12:33:32:803 [iOS] Retrieving contexts and views
+2019-03-29 12:33:32:803 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:32:803 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:32:803 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:32:805 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:32:805 [iOS] No web frames found.
+2019-03-29 12:33:32:805 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:33:308 [iOS] Retrieving contexts and views
+2019-03-29 12:33:33:309 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:33:309 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:33:309 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:33:311 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:33:312 [iOS] No web frames found.
+2019-03-29 12:33:33:312 [iOS] Retrieving contexts and views
+2019-03-29 12:33:33:312 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:33:312 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:33:312 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:33:314 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:33:315 [iOS] No web frames found.
+2019-03-29 12:33:33:315 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:33:821 [iOS] Retrieving contexts and views
+2019-03-29 12:33:33:821 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:33:821 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:33:822 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:33:824 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:33:825 [iOS] No web frames found.
+2019-03-29 12:33:33:825 [iOS] Retrieving contexts and views
+2019-03-29 12:33:33:825 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:33:825 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:33:825 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:33:827 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:33:827 [iOS] No web frames found.
+2019-03-29 12:33:33:827 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:34:333 [iOS] Retrieving contexts and views
+2019-03-29 12:33:34:334 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:34:334 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:34:334 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:34:338 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:34:338 [iOS] No web frames found.
+2019-03-29 12:33:34:338 [iOS] Retrieving contexts and views
+2019-03-29 12:33:34:338 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:34:338 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:34:338 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:34:340 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:34:340 [iOS] No web frames found.
+2019-03-29 12:33:34:341 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:34:846 [iOS] Retrieving contexts and views
+2019-03-29 12:33:34:847 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:34:847 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:34:847 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:34:849 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:34:850 [iOS] No web frames found.
+2019-03-29 12:33:34:850 [iOS] Retrieving contexts and views
+2019-03-29 12:33:34:850 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:34:850 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:34:850 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:34:852 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:34:852 [iOS] No web frames found.
+2019-03-29 12:33:34:852 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:35:358 [iOS] Retrieving contexts and views
+2019-03-29 12:33:35:358 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:35:359 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:35:359 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:35:361 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:35:361 [iOS] No web frames found.
+2019-03-29 12:33:35:361 [iOS] Retrieving contexts and views
+2019-03-29 12:33:35:362 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:35:362 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:35:362 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:35:364 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:35:364 [iOS] No web frames found.
+2019-03-29 12:33:35:364 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:35:865 [iOS] Retrieving contexts and views
+2019-03-29 12:33:35:865 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:35:865 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:35:866 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:35:869 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:35:869 [iOS] No web frames found.
+2019-03-29 12:33:35:869 [iOS] Retrieving contexts and views
+2019-03-29 12:33:35:869 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:35:869 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:35:870 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:35:871 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:35:872 [iOS] No web frames found.
+2019-03-29 12:33:35:872 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:36:374 [iOS] Retrieving contexts and views
+2019-03-29 12:33:36:375 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:36:375 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:36:375 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:36:377 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:36:377 [iOS] No web frames found.
+2019-03-29 12:33:36:378 [iOS] Retrieving contexts and views
+2019-03-29 12:33:36:378 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:36:378 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:36:378 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:36:380 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:36:380 [iOS] No web frames found.
+2019-03-29 12:33:36:380 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:36:885 [iOS] Retrieving contexts and views
+2019-03-29 12:33:36:885 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:36:885 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:36:886 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:36:888 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:36:888 [iOS] No web frames found.
+2019-03-29 12:33:36:888 [iOS] Retrieving contexts and views
+2019-03-29 12:33:36:889 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:36:889 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:36:889 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:36:891 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:36:891 [iOS] No web frames found.
+2019-03-29 12:33:36:891 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:37:395 [iOS] Retrieving contexts and views
+2019-03-29 12:33:37:395 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:37:396 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:37:396 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:37:398 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:37:398 [iOS] No web frames found.
+2019-03-29 12:33:37:399 [iOS] Retrieving contexts and views
+2019-03-29 12:33:37:399 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:37:399 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:37:399 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:37:401 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:37:402 [iOS] No web frames found.
+2019-03-29 12:33:37:402 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:37:906 [iOS] Retrieving contexts and views
+2019-03-29 12:33:37:907 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:37:907 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:37:907 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:37:910 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:37:910 [iOS] No web frames found.
+2019-03-29 12:33:37:910 [iOS] Retrieving contexts and views
+2019-03-29 12:33:37:910 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:37:910 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:37:911 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:37:912 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:37:912 [iOS] No web frames found.
+2019-03-29 12:33:37:913 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:38:415 [iOS] Retrieving contexts and views
+2019-03-29 12:33:38:416 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:38:416 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:38:416 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:38:419 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:38:419 [iOS] No web frames found.
+2019-03-29 12:33:38:419 [iOS] Retrieving contexts and views
+2019-03-29 12:33:38:419 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:38:419 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:38:420 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:38:421 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:38:422 [iOS] No web frames found.
+2019-03-29 12:33:38:422 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:38:927 [iOS] Retrieving contexts and views
+2019-03-29 12:33:38:927 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:38:928 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:38:928 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:38:930 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:38:930 [iOS] No web frames found.
+2019-03-29 12:33:38:931 [iOS] Retrieving contexts and views
+2019-03-29 12:33:38:931 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:38:931 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:38:931 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:38:933 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:38:933 [iOS] No web frames found.
+2019-03-29 12:33:38:933 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:39:436 [iOS] Retrieving contexts and views
+2019-03-29 12:33:39:436 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:39:437 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:39:437 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:39:440 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:39:440 [iOS] No web frames found.
+2019-03-29 12:33:39:440 [iOS] Retrieving contexts and views
+2019-03-29 12:33:39:440 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:39:441 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:39:441 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:39:442 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:39:443 [iOS] No web frames found.
+2019-03-29 12:33:39:443 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:39:943 [iOS] Retrieving contexts and views
+2019-03-29 12:33:39:943 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:39:944 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:39:944 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:39:946 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:39:947 [iOS] No web frames found.
+2019-03-29 12:33:39:947 [iOS] Retrieving contexts and views
+2019-03-29 12:33:39:947 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:39:947 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:39:947 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:39:949 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:39:949 [iOS] No web frames found.
+2019-03-29 12:33:39:949 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:40:451 [iOS] Retrieving contexts and views
+2019-03-29 12:33:40:451 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:40:451 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:40:451 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:40:454 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:40:454 [iOS] No web frames found.
+2019-03-29 12:33:40:454 [iOS] Retrieving contexts and views
+2019-03-29 12:33:40:454 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:40:454 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:40:455 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:40:456 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:40:457 [iOS] No web frames found.
+2019-03-29 12:33:40:457 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:40:957 [iOS] Retrieving contexts and views
+2019-03-29 12:33:40:958 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:40:958 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:40:958 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:40:960 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:40:961 [iOS] No web frames found.
+2019-03-29 12:33:40:961 [iOS] Retrieving contexts and views
+2019-03-29 12:33:40:961 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:40:961 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:40:961 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:40:963 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:40:963 [iOS] No web frames found.
+2019-03-29 12:33:40:964 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:41:468 [iOS] Retrieving contexts and views
+2019-03-29 12:33:41:468 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:41:468 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:41:469 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:41:471 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:41:471 [iOS] No web frames found.
+2019-03-29 12:33:41:471 [iOS] Retrieving contexts and views
+2019-03-29 12:33:41:471 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:41:472 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:41:472 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:41:474 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:41:474 [iOS] No web frames found.
+2019-03-29 12:33:41:474 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:41:977 [iOS] Retrieving contexts and views
+2019-03-29 12:33:41:977 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:41:977 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:41:977 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:41:980 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:41:980 [iOS] No web frames found.
+2019-03-29 12:33:41:980 [iOS] Retrieving contexts and views
+2019-03-29 12:33:41:980 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:41:981 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:41:981 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:41:982 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:41:983 [iOS] No web frames found.
+2019-03-29 12:33:41:983 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:42:486 [iOS] Retrieving contexts and views
+2019-03-29 12:33:42:486 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:42:487 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:42:487 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:42:489 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:42:489 [iOS] No web frames found.
+2019-03-29 12:33:42:489 [iOS] Retrieving contexts and views
+2019-03-29 12:33:42:489 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:42:489 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:42:490 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:42:491 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:42:491 [iOS] No web frames found.
+2019-03-29 12:33:42:492 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:42:995 [iOS] Retrieving contexts and views
+2019-03-29 12:33:42:995 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:42:996 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:42:996 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:42:998 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:42:998 [iOS] No web frames found.
+2019-03-29 12:33:42:999 [iOS] Retrieving contexts and views
+2019-03-29 12:33:43:000 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:43:000 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:43:001 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:43:002 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:43:002 [iOS] No web frames found.
+2019-03-29 12:33:43:002 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:43:509 [iOS] Retrieving contexts and views
+2019-03-29 12:33:43:509 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:43:509 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:43:509 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:43:512 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:43:512 [iOS] No web frames found.
+2019-03-29 12:33:43:513 [iOS] Retrieving contexts and views
+2019-03-29 12:33:43:513 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:43:513 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:43:513 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:43:515 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:43:515 [iOS] No web frames found.
+2019-03-29 12:33:43:515 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:44:022 [iOS] Retrieving contexts and views
+2019-03-29 12:33:44:022 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:44:023 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:44:024 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:44:027 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:44:027 [iOS] No web frames found.
+2019-03-29 12:33:44:027 [iOS] Retrieving contexts and views
+2019-03-29 12:33:44:027 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:44:028 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:44:028 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:44:030 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:44:030 [iOS] No web frames found.
+2019-03-29 12:33:44:030 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:44:535 [iOS] Retrieving contexts and views
+2019-03-29 12:33:44:536 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:44:536 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:44:536 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:44:539 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:44:539 [iOS] No web frames found.
+2019-03-29 12:33:44:539 [iOS] Retrieving contexts and views
+2019-03-29 12:33:44:539 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:44:539 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:44:539 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:44:541 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:44:541 [iOS] No web frames found.
+2019-03-29 12:33:44:542 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:45:046 [iOS] Retrieving contexts and views
+2019-03-29 12:33:45:046 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:45:047 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:45:047 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:45:049 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:45:049 [iOS] No web frames found.
+2019-03-29 12:33:45:050 [iOS] Retrieving contexts and views
+2019-03-29 12:33:45:050 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:45:050 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:45:050 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:45:052 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:45:052 [iOS] No web frames found.
+2019-03-29 12:33:45:052 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:45:557 [iOS] Retrieving contexts and views
+2019-03-29 12:33:45:557 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:45:557 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:45:558 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:45:560 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:45:560 [iOS] No web frames found.
+2019-03-29 12:33:45:560 [iOS] Retrieving contexts and views
+2019-03-29 12:33:45:561 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:45:561 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:45:561 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:45:563 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:45:563 [iOS] No web frames found.
+2019-03-29 12:33:45:563 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:46:067 [iOS] Retrieving contexts and views
+2019-03-29 12:33:46:069 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:46:069 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:46:069 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:46:072 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:46:072 [iOS] No web frames found.
+2019-03-29 12:33:46:072 [iOS] Retrieving contexts and views
+2019-03-29 12:33:46:072 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:46:072 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:46:073 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:46:075 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:46:075 [iOS] No web frames found.
+2019-03-29 12:33:46:075 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:46:576 [iOS] Retrieving contexts and views
+2019-03-29 12:33:46:576 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:46:577 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:46:577 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:46:579 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:46:579 [iOS] No web frames found.
+2019-03-29 12:33:46:580 [iOS] Retrieving contexts and views
+2019-03-29 12:33:46:580 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:46:580 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:46:580 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:46:582 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:46:582 [iOS] No web frames found.
+2019-03-29 12:33:46:582 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:47:087 [iOS] Retrieving contexts and views
+2019-03-29 12:33:47:088 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:47:088 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:47:088 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:47:091 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:47:091 [iOS] No web frames found.
+2019-03-29 12:33:47:091 [iOS] Retrieving contexts and views
+2019-03-29 12:33:47:091 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:47:091 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:47:091 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:47:093 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:47:093 [iOS] No web frames found.
+2019-03-29 12:33:47:093 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:47:596 [iOS] Retrieving contexts and views
+2019-03-29 12:33:47:597 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:47:597 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:47:598 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:47:600 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:47:600 [iOS] No web frames found.
+2019-03-29 12:33:47:600 [iOS] Retrieving contexts and views
+2019-03-29 12:33:47:600 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:47:601 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:47:602 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:47:603 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:47:603 [iOS] No web frames found.
+2019-03-29 12:33:47:604 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:48:106 [iOS] Retrieving contexts and views
+2019-03-29 12:33:48:106 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:48:106 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:48:106 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:48:109 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:48:109 [iOS] No web frames found.
+2019-03-29 12:33:48:109 [iOS] Retrieving contexts and views
+2019-03-29 12:33:48:109 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:48:110 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:48:110 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:48:111 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:48:112 [iOS] No web frames found.
+2019-03-29 12:33:48:112 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:48:614 [iOS] Retrieving contexts and views
+2019-03-29 12:33:48:614 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:48:615 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:48:615 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:48:617 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:48:617 [iOS] No web frames found.
+2019-03-29 12:33:48:618 [iOS] Retrieving contexts and views
+2019-03-29 12:33:48:618 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:48:618 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:48:618 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:48:620 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:48:620 [iOS] No web frames found.
+2019-03-29 12:33:48:620 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:49:126 [iOS] Retrieving contexts and views
+2019-03-29 12:33:49:127 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:49:127 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:49:127 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:49:129 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:49:130 [iOS] No web frames found.
+2019-03-29 12:33:49:130 [iOS] Retrieving contexts and views
+2019-03-29 12:33:49:130 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:49:130 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:49:130 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:49:132 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:49:132 [iOS] No web frames found.
+2019-03-29 12:33:49:132 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:49:637 [iOS] Retrieving contexts and views
+2019-03-29 12:33:49:638 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:49:638 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:49:638 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:49:641 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:49:641 [iOS] No web frames found.
+2019-03-29 12:33:49:642 [iOS] Retrieving contexts and views
+2019-03-29 12:33:49:642 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:49:642 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:49:642 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:49:644 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:49:644 [iOS] No web frames found.
+2019-03-29 12:33:49:644 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:50:143 [iOS] Retrieving contexts and views
+2019-03-29 12:33:50:144 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:50:144 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:50:144 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:50:146 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:50:146 [iOS] No web frames found.
+2019-03-29 12:33:50:146 [iOS] Retrieving contexts and views
+2019-03-29 12:33:50:146 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:50:146 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:50:147 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:50:148 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:50:148 [iOS] No web frames found.
+2019-03-29 12:33:50:149 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:50:654 [iOS] Retrieving contexts and views
+2019-03-29 12:33:50:655 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:50:655 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:50:655 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:50:657 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:50:658 [iOS] No web frames found.
+2019-03-29 12:33:50:658 [iOS] Retrieving contexts and views
+2019-03-29 12:33:50:658 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:50:658 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:50:658 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:50:660 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:50:660 [iOS] No web frames found.
+2019-03-29 12:33:50:660 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:51:163 [iOS] Retrieving contexts and views
+2019-03-29 12:33:51:163 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:51:163 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:51:164 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:51:166 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:51:166 [iOS] No web frames found.
+2019-03-29 12:33:51:167 [iOS] Retrieving contexts and views
+2019-03-29 12:33:51:167 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:51:167 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:51:168 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:51:169 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:51:169 [iOS] No web frames found.
+2019-03-29 12:33:51:170 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:51:671 [iOS] Retrieving contexts and views
+2019-03-29 12:33:51:672 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:51:672 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:51:672 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:51:675 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:51:675 [iOS] No web frames found.
+2019-03-29 12:33:51:675 [iOS] Retrieving contexts and views
+2019-03-29 12:33:51:675 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:51:675 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:51:676 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:51:678 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:51:678 [iOS] No web frames found.
+2019-03-29 12:33:51:678 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:52:184 [iOS] Retrieving contexts and views
+2019-03-29 12:33:52:184 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:52:184 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:52:185 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:52:187 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:52:187 [iOS] No web frames found.
+2019-03-29 12:33:52:187 [iOS] Retrieving contexts and views
+2019-03-29 12:33:52:188 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:52:188 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:52:188 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:52:190 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:52:190 [iOS] No web frames found.
+2019-03-29 12:33:52:190 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:52:691 [iOS] Retrieving contexts and views
+2019-03-29 12:33:52:691 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:52:692 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:52:692 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:52:694 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:52:695 [iOS] No web frames found.
+2019-03-29 12:33:52:695 [iOS] Retrieving contexts and views
+2019-03-29 12:33:52:695 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:52:695 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:52:695 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:52:697 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:52:697 [iOS] No web frames found.
+2019-03-29 12:33:52:697 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:53:202 [iOS] Retrieving contexts and views
+2019-03-29 12:33:53:202 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:53:204 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:53:204 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:53:206 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:53:206 [iOS] No web frames found.
+2019-03-29 12:33:53:207 [iOS] Retrieving contexts and views
+2019-03-29 12:33:53:207 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:53:207 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:53:207 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:53:209 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:53:209 [iOS] No web frames found.
+2019-03-29 12:33:53:209 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:53:714 [iOS] Retrieving contexts and views
+2019-03-29 12:33:53:714 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:53:715 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:53:715 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:53:717 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:53:717 [iOS] No web frames found.
+2019-03-29 12:33:53:717 [iOS] Retrieving contexts and views
+2019-03-29 12:33:53:718 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:53:718 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:53:718 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:53:720 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:53:720 [iOS] No web frames found.
+2019-03-29 12:33:53:720 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:54:221 [iOS] Retrieving contexts and views
+2019-03-29 12:33:54:221 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:54:222 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:54:222 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:54:224 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:54:224 [iOS] No web frames found.
+2019-03-29 12:33:54:225 [iOS] Retrieving contexts and views
+2019-03-29 12:33:54:225 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:54:225 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:54:225 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:54:227 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:54:227 [iOS] No web frames found.
+2019-03-29 12:33:54:227 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:54:732 [iOS] Retrieving contexts and views
+2019-03-29 12:33:54:732 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:54:733 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:54:733 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:54:735 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:54:735 [iOS] No web frames found.
+2019-03-29 12:33:54:736 [iOS] Retrieving contexts and views
+2019-03-29 12:33:54:736 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:54:736 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:54:736 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:54:738 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:54:739 [iOS] No web frames found.
+2019-03-29 12:33:54:739 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:55:245 [iOS] Retrieving contexts and views
+2019-03-29 12:33:55:245 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:55:245 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:55:245 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:55:248 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:55:248 [iOS] No web frames found.
+2019-03-29 12:33:55:249 [iOS] Retrieving contexts and views
+2019-03-29 12:33:55:250 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:55:250 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:55:250 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:55:252 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:55:252 [iOS] No web frames found.
+2019-03-29 12:33:55:252 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:55:757 [iOS] Retrieving contexts and views
+2019-03-29 12:33:55:757 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:55:758 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:55:758 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:55:760 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:55:760 [iOS] No web frames found.
+2019-03-29 12:33:55:761 [iOS] Retrieving contexts and views
+2019-03-29 12:33:55:762 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:55:762 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:55:762 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:55:764 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:55:764 [iOS] No web frames found.
+2019-03-29 12:33:55:764 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:56:269 [iOS] Retrieving contexts and views
+2019-03-29 12:33:56:270 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:56:270 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:56:270 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:56:272 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:56:273 [iOS] No web frames found.
+2019-03-29 12:33:56:273 [iOS] Retrieving contexts and views
+2019-03-29 12:33:56:273 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:56:273 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:56:273 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:56:275 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:56:275 [iOS] No web frames found.
+2019-03-29 12:33:56:275 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:56:781 [iOS] Retrieving contexts and views
+2019-03-29 12:33:56:781 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:56:782 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:56:782 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:56:785 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:56:785 [iOS] No web frames found.
+2019-03-29 12:33:56:785 [iOS] Retrieving contexts and views
+2019-03-29 12:33:56:785 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:56:786 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:56:786 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:56:787 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:56:788 [iOS] No web frames found.
+2019-03-29 12:33:56:788 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:57:294 [iOS] Retrieving contexts and views
+2019-03-29 12:33:57:294 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:57:294 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:57:294 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:57:297 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:57:297 [iOS] No web frames found.
+2019-03-29 12:33:57:297 [iOS] Retrieving contexts and views
+2019-03-29 12:33:57:298 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:57:298 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:57:299 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:57:300 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:57:300 [iOS] No web frames found.
+2019-03-29 12:33:57:301 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:57:804 [iOS] Retrieving contexts and views
+2019-03-29 12:33:57:804 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:57:804 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:57:805 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:57:807 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:57:807 [iOS] No web frames found.
+2019-03-29 12:33:57:807 [iOS] Retrieving contexts and views
+2019-03-29 12:33:57:808 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:57:808 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:57:808 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:57:810 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:57:810 [iOS] No web frames found.
+2019-03-29 12:33:57:810 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:58:311 [iOS] Retrieving contexts and views
+2019-03-29 12:33:58:312 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:58:312 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:58:312 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:58:314 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:58:315 [iOS] No web frames found.
+2019-03-29 12:33:58:315 [iOS] Retrieving contexts and views
+2019-03-29 12:33:58:315 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:58:315 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:58:315 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:58:317 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:58:317 [iOS] No web frames found.
+2019-03-29 12:33:58:317 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:58:823 [iOS] Retrieving contexts and views
+2019-03-29 12:33:58:825 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:58:825 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:58:825 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:58:827 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:58:827 [iOS] No web frames found.
+2019-03-29 12:33:58:827 [iOS] Retrieving contexts and views
+2019-03-29 12:33:58:828 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:58:828 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:58:828 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:58:830 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:58:830 [iOS] No web frames found.
+2019-03-29 12:33:58:830 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:59:336 [iOS] Retrieving contexts and views
+2019-03-29 12:33:59:337 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:59:337 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:59:337 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:59:339 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:59:340 [iOS] No web frames found.
+2019-03-29 12:33:59:340 [iOS] Retrieving contexts and views
+2019-03-29 12:33:59:340 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:59:340 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:59:340 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:59:342 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:59:342 [iOS] No web frames found.
+2019-03-29 12:33:59:342 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:33:59:843 [iOS] Retrieving contexts and views
+2019-03-29 12:33:59:844 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:59:844 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:59:844 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:59:846 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:59:846 [iOS] No web frames found.
+2019-03-29 12:33:59:847 [iOS] Retrieving contexts and views
+2019-03-29 12:33:59:847 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:33:59:847 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:33:59:847 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:33:59:849 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:33:59:849 [iOS] No web frames found.
+2019-03-29 12:33:59:849 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:00:353 [iOS] Retrieving contexts and views
+2019-03-29 12:34:00:353 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:00:353 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:00:354 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:00:356 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:00:356 [iOS] No web frames found.
+2019-03-29 12:34:00:356 [iOS] Retrieving contexts and views
+2019-03-29 12:34:00:356 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:00:357 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:00:357 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:00:359 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:00:359 [iOS] No web frames found.
+2019-03-29 12:34:00:360 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:00:864 [iOS] Retrieving contexts and views
+2019-03-29 12:34:00:864 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:00:864 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:00:865 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:00:867 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:00:867 [iOS] No web frames found.
+2019-03-29 12:34:00:867 [iOS] Retrieving contexts and views
+2019-03-29 12:34:00:868 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:00:868 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:00:868 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:00:870 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:00:870 [iOS] No web frames found.
+2019-03-29 12:34:00:870 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:01:375 [iOS] Retrieving contexts and views
+2019-03-29 12:34:01:375 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:01:375 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:01:375 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:01:378 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:01:378 [iOS] No web frames found.
+2019-03-29 12:34:01:378 [iOS] Retrieving contexts and views
+2019-03-29 12:34:01:378 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:01:378 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:01:379 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:01:380 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:01:380 [iOS] No web frames found.
+2019-03-29 12:34:01:381 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:01:883 [iOS] Retrieving contexts and views
+2019-03-29 12:34:01:884 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:01:884 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:01:884 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:01:887 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:01:887 [iOS] No web frames found.
+2019-03-29 12:34:01:887 [iOS] Retrieving contexts and views
+2019-03-29 12:34:01:887 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:01:887 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:01:888 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:01:889 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:01:889 [iOS] No web frames found.
+2019-03-29 12:34:01:890 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:02:393 [iOS] Retrieving contexts and views
+2019-03-29 12:34:02:393 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:02:394 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:02:394 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:02:397 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:02:397 [iOS] No web frames found.
+2019-03-29 12:34:02:397 [iOS] Retrieving contexts and views
+2019-03-29 12:34:02:398 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:02:398 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:02:398 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:02:402 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:02:402 [iOS] No web frames found.
+2019-03-29 12:34:02:402 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:02:907 [iOS] Retrieving contexts and views
+2019-03-29 12:34:02:908 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:02:908 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:02:908 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:02:910 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:02:911 [iOS] No web frames found.
+2019-03-29 12:34:02:911 [iOS] Retrieving contexts and views
+2019-03-29 12:34:02:911 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:02:911 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:02:911 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:02:913 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:02:913 [iOS] No web frames found.
+2019-03-29 12:34:02:913 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:03:419 [iOS] Retrieving contexts and views
+2019-03-29 12:34:03:419 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:03:420 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:03:420 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:03:422 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:03:422 [iOS] No web frames found.
+2019-03-29 12:34:03:423 [iOS] Retrieving contexts and views
+2019-03-29 12:34:03:423 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:03:423 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:03:423 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:03:425 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:03:425 [iOS] No web frames found.
+2019-03-29 12:34:03:425 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:03:930 [iOS] Retrieving contexts and views
+2019-03-29 12:34:03:930 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:03:931 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:03:931 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:03:933 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:03:934 [iOS] No web frames found.
+2019-03-29 12:34:03:934 [iOS] Retrieving contexts and views
+2019-03-29 12:34:03:934 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:03:934 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:03:934 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:03:936 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:03:937 [iOS] No web frames found.
+2019-03-29 12:34:03:937 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:04:438 [iOS] Retrieving contexts and views
+2019-03-29 12:34:04:439 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:04:440 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:04:440 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:04:442 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:04:442 [iOS] No web frames found.
+2019-03-29 12:34:04:442 [iOS] Retrieving contexts and views
+2019-03-29 12:34:04:442 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:04:443 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:04:443 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:04:444 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:04:445 [iOS] No web frames found.
+2019-03-29 12:34:04:446 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:04:952 [iOS] Retrieving contexts and views
+2019-03-29 12:34:04:952 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:04:952 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:04:953 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:04:955 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:04:955 [iOS] No web frames found.
+2019-03-29 12:34:04:955 [iOS] Retrieving contexts and views
+2019-03-29 12:34:04:956 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:04:956 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:04:956 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:04:958 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:04:958 [iOS] No web frames found.
+2019-03-29 12:34:04:958 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:05:462 [iOS] Retrieving contexts and views
+2019-03-29 12:34:05:462 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:05:463 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:05:463 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:05:465 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:05:465 [iOS] No web frames found.
+2019-03-29 12:34:05:466 [iOS] Retrieving contexts and views
+2019-03-29 12:34:05:466 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:05:466 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:05:466 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:05:468 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:05:468 [iOS] No web frames found.
+2019-03-29 12:34:05:468 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:05:971 [iOS] Retrieving contexts and views
+2019-03-29 12:34:05:972 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:05:972 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:05:972 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:05:980 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:05:980 [iOS] No web frames found.
+2019-03-29 12:34:05:980 [iOS] Retrieving contexts and views
+2019-03-29 12:34:05:981 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:05:981 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:05:981 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:05:987 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:05:987 [iOS] No web frames found.
+2019-03-29 12:34:05:987 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:06:493 [iOS] Retrieving contexts and views
+2019-03-29 12:34:06:494 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:06:495 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:06:495 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:06:498 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:06:498 [iOS] No web frames found.
+2019-03-29 12:34:06:498 [iOS] Retrieving contexts and views
+2019-03-29 12:34:06:498 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:06:498 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:06:499 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:06:500 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:06:501 [iOS] No web frames found.
+2019-03-29 12:34:06:501 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:07:006 [iOS] Retrieving contexts and views
+2019-03-29 12:34:07:007 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:07:007 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:07:007 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:07:010 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:07:010 [iOS] No web frames found.
+2019-03-29 12:34:07:010 [iOS] Retrieving contexts and views
+2019-03-29 12:34:07:010 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:07:010 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:07:010 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:07:012 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:07:012 [iOS] No web frames found.
+2019-03-29 12:34:07:012 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:07:515 [iOS] Retrieving contexts and views
+2019-03-29 12:34:07:515 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:07:516 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:07:516 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:07:518 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:07:518 [iOS] No web frames found.
+2019-03-29 12:34:07:519 [iOS] Retrieving contexts and views
+2019-03-29 12:34:07:519 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:07:519 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:07:519 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:07:521 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:07:521 [iOS] No web frames found.
+2019-03-29 12:34:07:521 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:08:022 [iOS] Retrieving contexts and views
+2019-03-29 12:34:08:022 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:08:023 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:08:023 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:08:025 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:08:025 [iOS] No web frames found.
+2019-03-29 12:34:08:026 [iOS] Retrieving contexts and views
+2019-03-29 12:34:08:026 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:08:026 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:08:027 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:08:028 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:08:028 [iOS] No web frames found.
+2019-03-29 12:34:08:029 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:08:534 [iOS] Retrieving contexts and views
+2019-03-29 12:34:08:534 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:08:534 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:08:535 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:08:537 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:08:537 [iOS] No web frames found.
+2019-03-29 12:34:08:537 [iOS] Retrieving contexts and views
+2019-03-29 12:34:08:537 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:08:538 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:08:538 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:08:539 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:08:540 [iOS] No web frames found.
+2019-03-29 12:34:08:540 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:09:041 [iOS] Retrieving contexts and views
+2019-03-29 12:34:09:041 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:09:042 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:09:042 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:09:044 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:09:044 [iOS] No web frames found.
+2019-03-29 12:34:09:044 [iOS] Retrieving contexts and views
+2019-03-29 12:34:09:045 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:09:045 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:09:045 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:09:047 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:09:047 [iOS] No web frames found.
+2019-03-29 12:34:09:047 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:09:553 [iOS] Retrieving contexts and views
+2019-03-29 12:34:09:553 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:09:553 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:09:553 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:09:556 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:09:556 [iOS] No web frames found.
+2019-03-29 12:34:09:556 [iOS] Retrieving contexts and views
+2019-03-29 12:34:09:556 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:09:557 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:09:557 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:09:558 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:09:559 [iOS] No web frames found.
+2019-03-29 12:34:09:559 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:10:063 [iOS] Retrieving contexts and views
+2019-03-29 12:34:10:064 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:10:064 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:10:064 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:10:066 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:10:067 [iOS] No web frames found.
+2019-03-29 12:34:10:067 [iOS] Retrieving contexts and views
+2019-03-29 12:34:10:067 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:10:067 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:10:067 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:10:069 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:10:069 [iOS] No web frames found.
+2019-03-29 12:34:10:069 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:10:574 [iOS] Retrieving contexts and views
+2019-03-29 12:34:10:575 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:10:575 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:10:575 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:10:577 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:10:578 [iOS] No web frames found.
+2019-03-29 12:34:10:578 [iOS] Retrieving contexts and views
+2019-03-29 12:34:10:578 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:10:578 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:10:578 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:10:580 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:10:580 [iOS] No web frames found.
+2019-03-29 12:34:10:580 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:11:084 [iOS] Retrieving contexts and views
+2019-03-29 12:34:11:084 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:11:085 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:11:085 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:11:087 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:11:087 [iOS] No web frames found.
+2019-03-29 12:34:11:088 [iOS] Retrieving contexts and views
+2019-03-29 12:34:11:088 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:11:088 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:11:090 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:11:091 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:11:092 [iOS] No web frames found.
+2019-03-29 12:34:11:092 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:11:598 [iOS] Retrieving contexts and views
+2019-03-29 12:34:11:598 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:11:598 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:11:599 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:11:601 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:11:601 [iOS] No web frames found.
+2019-03-29 12:34:11:602 [iOS] Retrieving contexts and views
+2019-03-29 12:34:11:602 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:11:602 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:11:602 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:11:605 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:11:605 [iOS] No web frames found.
+2019-03-29 12:34:11:605 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:12:108 [iOS] Retrieving contexts and views
+2019-03-29 12:34:12:108 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:12:108 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:12:108 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:12:111 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:12:111 [iOS] No web frames found.
+2019-03-29 12:34:12:111 [iOS] Retrieving contexts and views
+2019-03-29 12:34:12:111 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:12:111 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:12:111 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:12:113 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:12:113 [iOS] No web frames found.
+2019-03-29 12:34:12:113 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:12:619 [iOS] Retrieving contexts and views
+2019-03-29 12:34:12:619 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:12:619 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:12:620 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:12:622 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:12:622 [iOS] No web frames found.
+2019-03-29 12:34:12:622 [iOS] Retrieving contexts and views
+2019-03-29 12:34:12:623 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:12:623 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:12:623 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:12:625 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:12:625 [iOS] No web frames found.
+2019-03-29 12:34:12:625 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:13:126 [iOS] Retrieving contexts and views
+2019-03-29 12:34:13:126 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:13:126 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:13:127 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:13:129 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:13:129 [iOS] No web frames found.
+2019-03-29 12:34:13:129 [iOS] Retrieving contexts and views
+2019-03-29 12:34:13:130 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:13:130 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:13:130 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:13:132 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:13:132 [iOS] No web frames found.
+2019-03-29 12:34:13:132 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:13:637 [iOS] Retrieving contexts and views
+2019-03-29 12:34:13:637 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:13:637 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:13:638 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:13:640 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:13:640 [iOS] No web frames found.
+2019-03-29 12:34:13:640 [iOS] Retrieving contexts and views
+2019-03-29 12:34:13:640 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:13:641 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:13:641 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:13:643 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:13:643 [iOS] No web frames found.
+2019-03-29 12:34:13:643 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:14:147 [iOS] Retrieving contexts and views
+2019-03-29 12:34:14:147 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:14:147 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:14:147 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:14:150 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:14:150 [iOS] No web frames found.
+2019-03-29 12:34:14:150 [iOS] Retrieving contexts and views
+2019-03-29 12:34:14:150 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:14:151 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:14:151 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:14:153 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:14:153 [iOS] No web frames found.
+2019-03-29 12:34:14:153 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:14:659 [iOS] Retrieving contexts and views
+2019-03-29 12:34:14:660 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:14:660 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:14:660 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:14:663 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:14:663 [iOS] No web frames found.
+2019-03-29 12:34:14:663 [iOS] Retrieving contexts and views
+2019-03-29 12:34:14:663 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:14:663 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:14:663 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:14:665 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:14:665 [iOS] No web frames found.
+2019-03-29 12:34:14:665 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:15:169 [iOS] Retrieving contexts and views
+2019-03-29 12:34:15:169 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:15:170 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:15:170 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:15:172 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:15:172 [iOS] No web frames found.
+2019-03-29 12:34:15:173 [iOS] Retrieving contexts and views
+2019-03-29 12:34:15:173 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:15:173 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:15:173 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:15:175 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:15:175 [iOS] No web frames found.
+2019-03-29 12:34:15:176 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:15:682 [iOS] Retrieving contexts and views
+2019-03-29 12:34:15:682 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:15:682 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:15:683 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:15:685 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:15:686 [iOS] No web frames found.
+2019-03-29 12:34:15:686 [iOS] Retrieving contexts and views
+2019-03-29 12:34:15:686 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:15:686 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:15:687 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:15:688 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:15:688 [iOS] No web frames found.
+2019-03-29 12:34:15:690 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:16:193 [iOS] Retrieving contexts and views
+2019-03-29 12:34:16:194 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:16:194 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:16:194 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:16:196 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:16:196 [iOS] No web frames found.
+2019-03-29 12:34:16:197 [iOS] Retrieving contexts and views
+2019-03-29 12:34:16:197 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:16:197 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:16:197 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:16:199 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:16:199 [iOS] No web frames found.
+2019-03-29 12:34:16:199 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:16:705 [iOS] Retrieving contexts and views
+2019-03-29 12:34:16:705 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:16:705 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:16:705 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:16:708 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:16:708 [iOS] No web frames found.
+2019-03-29 12:34:16:708 [iOS] Retrieving contexts and views
+2019-03-29 12:34:16:708 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:16:708 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:16:709 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:16:710 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:16:710 [iOS] No web frames found.
+2019-03-29 12:34:16:711 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:17:212 [iOS] Retrieving contexts and views
+2019-03-29 12:34:17:212 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:17:212 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:17:213 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:17:215 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:17:215 [iOS] No web frames found.
+2019-03-29 12:34:17:215 [iOS] Retrieving contexts and views
+2019-03-29 12:34:17:215 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:17:215 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:17:216 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:17:217 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:17:217 [iOS] No web frames found.
+2019-03-29 12:34:17:218 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:17:722 [iOS] Retrieving contexts and views
+2019-03-29 12:34:17:722 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:17:723 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:17:724 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:17:726 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:17:726 [iOS] No web frames found.
+2019-03-29 12:34:17:726 [iOS] Retrieving contexts and views
+2019-03-29 12:34:17:726 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:17:726 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:17:727 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:17:728 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:17:728 [iOS] No web frames found.
+2019-03-29 12:34:17:728 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:18:234 [iOS] Retrieving contexts and views
+2019-03-29 12:34:18:236 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:18:236 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:18:237 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:18:239 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:18:239 [iOS] No web frames found.
+2019-03-29 12:34:18:239 [iOS] Retrieving contexts and views
+2019-03-29 12:34:18:239 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:18:239 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:18:239 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:18:241 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:18:241 [iOS] No web frames found.
+2019-03-29 12:34:18:241 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:18:746 [iOS] Retrieving contexts and views
+2019-03-29 12:34:18:746 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:18:746 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:18:746 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:18:749 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:18:749 [iOS] No web frames found.
+2019-03-29 12:34:18:749 [iOS] Retrieving contexts and views
+2019-03-29 12:34:18:749 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:18:749 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:18:749 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:18:751 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:18:751 [iOS] No web frames found.
+2019-03-29 12:34:18:751 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:19:252 [iOS] Retrieving contexts and views
+2019-03-29 12:34:19:253 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:19:253 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:19:253 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:19:256 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:19:256 [iOS] No web frames found.
+2019-03-29 12:34:19:256 [iOS] Retrieving contexts and views
+2019-03-29 12:34:19:256 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:19:256 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:19:257 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:19:259 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:19:259 [iOS] No web frames found.
+2019-03-29 12:34:19:259 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:19:764 [iOS] Retrieving contexts and views
+2019-03-29 12:34:19:765 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:19:765 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:19:765 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:19:768 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:19:768 [iOS] No web frames found.
+2019-03-29 12:34:19:768 [iOS] Retrieving contexts and views
+2019-03-29 12:34:19:768 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:19:768 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:19:768 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:19:770 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:19:770 [iOS] No web frames found.
+2019-03-29 12:34:19:770 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:20:276 [iOS] Retrieving contexts and views
+2019-03-29 12:34:20:277 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:20:277 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:20:277 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:20:279 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:20:280 [iOS] No web frames found.
+2019-03-29 12:34:20:281 [iOS] Retrieving contexts and views
+2019-03-29 12:34:20:281 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:20:281 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:20:281 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:20:283 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:20:283 [iOS] No web frames found.
+2019-03-29 12:34:20:283 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:20:788 [iOS] Retrieving contexts and views
+2019-03-29 12:34:20:789 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:20:790 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:20:790 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:20:792 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:20:792 [iOS] No web frames found.
+2019-03-29 12:34:20:792 [iOS] Retrieving contexts and views
+2019-03-29 12:34:20:793 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:20:793 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:20:794 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:20:796 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:20:796 [iOS] No web frames found.
+2019-03-29 12:34:20:796 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:21:298 [iOS] Retrieving contexts and views
+2019-03-29 12:34:21:298 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:21:298 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:21:298 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:21:301 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:21:301 [iOS] No web frames found.
+2019-03-29 12:34:21:301 [iOS] Retrieving contexts and views
+2019-03-29 12:34:21:301 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:21:301 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:21:301 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:21:303 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:21:303 [iOS] No web frames found.
+2019-03-29 12:34:21:303 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:21:806 [iOS] Retrieving contexts and views
+2019-03-29 12:34:21:807 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:21:807 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:21:807 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:21:810 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:21:810 [iOS] No web frames found.
+2019-03-29 12:34:21:810 [iOS] Retrieving contexts and views
+2019-03-29 12:34:21:810 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:21:810 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:21:810 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:21:812 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:21:812 [iOS] No web frames found.
+2019-03-29 12:34:21:812 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:22:317 [iOS] Retrieving contexts and views
+2019-03-29 12:34:22:318 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:22:318 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:22:318 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:22:320 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:22:320 [iOS] No web frames found.
+2019-03-29 12:34:22:320 [iOS] Retrieving contexts and views
+2019-03-29 12:34:22:320 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:22:321 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:22:321 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:22:322 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:22:323 [iOS] No web frames found.
+2019-03-29 12:34:22:323 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:22:828 [iOS] Retrieving contexts and views
+2019-03-29 12:34:22:829 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:22:829 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:22:829 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:22:832 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:22:832 [iOS] No web frames found.
+2019-03-29 12:34:22:832 [iOS] Retrieving contexts and views
+2019-03-29 12:34:22:832 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:22:832 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:22:832 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:22:834 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:22:834 [iOS] No web frames found.
+2019-03-29 12:34:22:834 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:23:340 [iOS] Retrieving contexts and views
+2019-03-29 12:34:23:340 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:23:341 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:23:341 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:23:343 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:23:343 [iOS] No web frames found.
+2019-03-29 12:34:23:344 [iOS] Retrieving contexts and views
+2019-03-29 12:34:23:344 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:23:344 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:23:344 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:23:346 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:23:346 [iOS] No web frames found.
+2019-03-29 12:34:23:347 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:23:849 [iOS] Retrieving contexts and views
+2019-03-29 12:34:23:850 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:23:850 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:23:850 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:23:852 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:23:853 [iOS] No web frames found.
+2019-03-29 12:34:23:853 [iOS] Retrieving contexts and views
+2019-03-29 12:34:23:853 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:23:853 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:23:853 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:23:855 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:23:856 [iOS] No web frames found.
+2019-03-29 12:34:23:856 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:24:360 [iOS] Retrieving contexts and views
+2019-03-29 12:34:24:361 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:24:361 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:24:361 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:24:363 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:24:364 [iOS] No web frames found.
+2019-03-29 12:34:24:364 [iOS] Retrieving contexts and views
+2019-03-29 12:34:24:364 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:24:364 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:24:364 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:24:366 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:24:366 [iOS] No web frames found.
+2019-03-29 12:34:24:366 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:24:870 [iOS] Retrieving contexts and views
+2019-03-29 12:34:24:871 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:24:871 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:24:871 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:24:874 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:24:874 [iOS] No web frames found.
+2019-03-29 12:34:24:874 [iOS] Retrieving contexts and views
+2019-03-29 12:34:24:874 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:24:874 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:24:874 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:24:876 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:24:876 [iOS] No web frames found.
+2019-03-29 12:34:24:876 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:25:381 [iOS] Retrieving contexts and views
+2019-03-29 12:34:25:381 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:25:382 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:25:382 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:25:385 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:25:385 [iOS] No web frames found.
+2019-03-29 12:34:25:385 [iOS] Retrieving contexts and views
+2019-03-29 12:34:25:385 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:25:385 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:25:385 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:25:387 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:25:387 [iOS] No web frames found.
+2019-03-29 12:34:25:387 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:25:892 [iOS] Retrieving contexts and views
+2019-03-29 12:34:25:893 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:25:893 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:25:893 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:25:896 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:25:896 [iOS] No web frames found.
+2019-03-29 12:34:25:897 [iOS] Retrieving contexts and views
+2019-03-29 12:34:25:897 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:25:897 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:25:897 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:25:899 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:25:899 [iOS] No web frames found.
+2019-03-29 12:34:25:899 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:26:403 [iOS] Retrieving contexts and views
+2019-03-29 12:34:26:403 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:26:404 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:26:404 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:26:406 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:26:406 [iOS] No web frames found.
+2019-03-29 12:34:26:406 [iOS] Retrieving contexts and views
+2019-03-29 12:34:26:407 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:26:407 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:26:407 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:26:408 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:26:409 [iOS] No web frames found.
+2019-03-29 12:34:26:409 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:26:910 [iOS] Retrieving contexts and views
+2019-03-29 12:34:26:911 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:26:911 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:26:911 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:26:913 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:26:914 [iOS] No web frames found.
+2019-03-29 12:34:26:914 [iOS] Retrieving contexts and views
+2019-03-29 12:34:26:914 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:26:914 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:26:914 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:26:916 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:26:916 [iOS] No web frames found.
+2019-03-29 12:34:26:916 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:27:416 [iOS] Retrieving contexts and views
+2019-03-29 12:34:27:417 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:27:417 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:27:417 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:27:419 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:27:421 [iOS] No web frames found.
+2019-03-29 12:34:27:421 [iOS] Retrieving contexts and views
+2019-03-29 12:34:27:421 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:27:421 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:27:421 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:27:423 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:27:423 [iOS] No web frames found.
+2019-03-29 12:34:27:424 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:27:931 [iOS] Retrieving contexts and views
+2019-03-29 12:34:27:931 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:27:933 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:27:933 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:27:935 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:27:935 [iOS] No web frames found.
+2019-03-29 12:34:27:935 [iOS] Retrieving contexts and views
+2019-03-29 12:34:27:936 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:27:936 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:27:936 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:27:937 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:27:937 [iOS] No web frames found.
+2019-03-29 12:34:27:938 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:28:440 [iOS] Retrieving contexts and views
+2019-03-29 12:34:28:441 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:28:441 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:28:441 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:28:443 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:28:443 [iOS] No web frames found.
+2019-03-29 12:34:28:444 [iOS] Retrieving contexts and views
+2019-03-29 12:34:28:444 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:28:444 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:28:444 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:28:446 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:28:446 [iOS] No web frames found.
+2019-03-29 12:34:28:446 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:28:952 [iOS] Retrieving contexts and views
+2019-03-29 12:34:28:952 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:28:952 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:28:952 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:28:955 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:28:955 [iOS] No web frames found.
+2019-03-29 12:34:28:955 [iOS] Retrieving contexts and views
+2019-03-29 12:34:28:955 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:28:955 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:28:955 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:28:957 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:28:957 [iOS] No web frames found.
+2019-03-29 12:34:28:957 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:29:462 [iOS] Retrieving contexts and views
+2019-03-29 12:34:29:462 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:29:462 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:29:462 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:29:464 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:29:464 [iOS] No web frames found.
+2019-03-29 12:34:29:465 [iOS] Retrieving contexts and views
+2019-03-29 12:34:29:465 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:29:465 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:29:465 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:29:467 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:29:467 [iOS] No web frames found.
+2019-03-29 12:34:29:467 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:29:969 [iOS] Retrieving contexts and views
+2019-03-29 12:34:29:969 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:29:969 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:29:970 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:29:972 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:29:972 [iOS] No web frames found.
+2019-03-29 12:34:29:972 [iOS] Retrieving contexts and views
+2019-03-29 12:34:29:972 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:29:972 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:29:973 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:29:974 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:29:974 [iOS] No web frames found.
+2019-03-29 12:34:29:974 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:30:481 [iOS] Retrieving contexts and views
+2019-03-29 12:34:30:481 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:30:481 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:30:482 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:30:484 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:30:484 [iOS] No web frames found.
+2019-03-29 12:34:30:485 [iOS] Retrieving contexts and views
+2019-03-29 12:34:30:485 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:30:485 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:30:485 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:30:486 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:30:487 [iOS] No web frames found.
+2019-03-29 12:34:30:487 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:30:991 [iOS] Retrieving contexts and views
+2019-03-29 12:34:30:992 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:30:992 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:30:992 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:30:995 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:30:995 [iOS] No web frames found.
+2019-03-29 12:34:30:995 [iOS] Retrieving contexts and views
+2019-03-29 12:34:30:995 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:30:995 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:30:995 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:30:998 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:30:998 [iOS] No web frames found.
+2019-03-29 12:34:30:998 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:31:499 [iOS] Retrieving contexts and views
+2019-03-29 12:34:31:500 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:31:500 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:31:500 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:31:502 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:31:503 [iOS] No web frames found.
+2019-03-29 12:34:31:503 [iOS] Retrieving contexts and views
+2019-03-29 12:34:31:503 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:31:503 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:31:503 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:31:505 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:31:505 [iOS] No web frames found.
+2019-03-29 12:34:31:505 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:32:010 [iOS] Retrieving contexts and views
+2019-03-29 12:34:32:010 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:32:011 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:32:011 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:32:013 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:32:013 [iOS] No web frames found.
+2019-03-29 12:34:32:013 [iOS] Retrieving contexts and views
+2019-03-29 12:34:32:014 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:32:014 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:32:014 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:32:016 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:32:016 [iOS] No web frames found.
+2019-03-29 12:34:32:016 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:32:522 [iOS] Retrieving contexts and views
+2019-03-29 12:34:32:522 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:32:522 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:32:522 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:32:525 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:32:525 [iOS] No web frames found.
+2019-03-29 12:34:32:525 [iOS] Retrieving contexts and views
+2019-03-29 12:34:32:525 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:32:525 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:32:525 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:32:527 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:32:527 [iOS] No web frames found.
+2019-03-29 12:34:32:527 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:33:028 [iOS] Retrieving contexts and views
+2019-03-29 12:34:33:029 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:33:029 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:33:029 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:33:031 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:33:032 [iOS] No web frames found.
+2019-03-29 12:34:33:033 [iOS] Retrieving contexts and views
+2019-03-29 12:34:33:033 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:33:033 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:33:033 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:33:035 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:33:035 [iOS] No web frames found.
+2019-03-29 12:34:33:035 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:33:537 [iOS] Retrieving contexts and views
+2019-03-29 12:34:33:538 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:33:538 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:33:538 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:33:540 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:33:541 [iOS] No web frames found.
+2019-03-29 12:34:33:541 [iOS] Retrieving contexts and views
+2019-03-29 12:34:33:541 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:33:541 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:33:541 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:33:543 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:33:543 [iOS] No web frames found.
+2019-03-29 12:34:33:543 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:34:048 [iOS] Retrieving contexts and views
+2019-03-29 12:34:34:048 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:34:048 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:34:049 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:34:051 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:34:051 [iOS] No web frames found.
+2019-03-29 12:34:34:051 [iOS] Retrieving contexts and views
+2019-03-29 12:34:34:051 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:34:052 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:34:052 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:34:053 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:34:053 [iOS] No web frames found.
+2019-03-29 12:34:34:054 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:34:559 [iOS] Retrieving contexts and views
+2019-03-29 12:34:34:560 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:34:560 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:34:560 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:34:562 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:34:562 [iOS] No web frames found.
+2019-03-29 12:34:34:563 [iOS] Retrieving contexts and views
+2019-03-29 12:34:34:563 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:34:563 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:34:563 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:34:565 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:34:565 [iOS] No web frames found.
+2019-03-29 12:34:34:565 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:35:066 [iOS] Retrieving contexts and views
+2019-03-29 12:34:35:066 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:35:066 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:35:067 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:35:070 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:35:070 [iOS] No web frames found.
+2019-03-29 12:34:35:070 [iOS] Retrieving contexts and views
+2019-03-29 12:34:35:070 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:35:070 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:35:070 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:35:072 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:35:072 [iOS] No web frames found.
+2019-03-29 12:34:35:072 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:35:577 [iOS] Retrieving contexts and views
+2019-03-29 12:34:35:578 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:35:578 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:35:578 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:35:580 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:35:581 [iOS] No web frames found.
+2019-03-29 12:34:35:581 [iOS] Retrieving contexts and views
+2019-03-29 12:34:35:581 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:35:581 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:35:581 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:35:583 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:35:583 [iOS] No web frames found.
+2019-03-29 12:34:35:583 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:36:084 [iOS] Retrieving contexts and views
+2019-03-29 12:34:36:084 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:36:085 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:36:085 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:36:087 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:36:087 [iOS] No web frames found.
+2019-03-29 12:34:36:087 [iOS] Retrieving contexts and views
+2019-03-29 12:34:36:087 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:36:088 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:36:088 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:36:089 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:36:089 [iOS] No web frames found.
+2019-03-29 12:34:36:090 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:36:592 [iOS] Retrieving contexts and views
+2019-03-29 12:34:36:592 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:36:592 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:36:592 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:36:595 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:36:596 [iOS] No web frames found.
+2019-03-29 12:34:36:596 [iOS] Retrieving contexts and views
+2019-03-29 12:34:36:596 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:36:596 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:36:596 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:36:598 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:36:598 [iOS] No web frames found.
+2019-03-29 12:34:36:598 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:37:104 [iOS] Retrieving contexts and views
+2019-03-29 12:34:37:104 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:37:104 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:37:105 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:37:107 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:37:107 [iOS] No web frames found.
+2019-03-29 12:34:37:107 [iOS] Retrieving contexts and views
+2019-03-29 12:34:37:107 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:37:107 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:37:108 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:37:109 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:37:109 [iOS] No web frames found.
+2019-03-29 12:34:37:109 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:37:611 [iOS] Retrieving contexts and views
+2019-03-29 12:34:37:611 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:37:612 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:37:612 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:37:614 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:37:614 [iOS] No web frames found.
+2019-03-29 12:34:37:614 [iOS] Retrieving contexts and views
+2019-03-29 12:34:37:615 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:37:615 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:37:615 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:37:616 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:37:616 [iOS] No web frames found.
+2019-03-29 12:34:37:617 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:38:118 [iOS] Retrieving contexts and views
+2019-03-29 12:34:38:118 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:38:118 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:38:118 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:38:120 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:38:120 [iOS] No web frames found.
+2019-03-29 12:34:38:120 [iOS] Retrieving contexts and views
+2019-03-29 12:34:38:120 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:38:120 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:38:121 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:38:122 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:38:122 [iOS] No web frames found.
+2019-03-29 12:34:38:122 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:38:627 [iOS] Retrieving contexts and views
+2019-03-29 12:34:38:627 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:38:629 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:38:629 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:38:631 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:38:631 [iOS] No web frames found.
+2019-03-29 12:34:38:631 [iOS] Retrieving contexts and views
+2019-03-29 12:34:38:631 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:38:631 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:38:632 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:38:633 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:38:633 [iOS] No web frames found.
+2019-03-29 12:34:38:633 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:39:136 [iOS] Retrieving contexts and views
+2019-03-29 12:34:39:136 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:39:137 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:39:137 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:39:140 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:39:141 [iOS] No web frames found.
+2019-03-29 12:34:39:141 [iOS] Retrieving contexts and views
+2019-03-29 12:34:39:141 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:39:141 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:39:141 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:39:143 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:39:143 [iOS] No web frames found.
+2019-03-29 12:34:39:143 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:39:648 [iOS] Retrieving contexts and views
+2019-03-29 12:34:39:648 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:39:648 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:39:649 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:39:651 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:39:651 [iOS] No web frames found.
+2019-03-29 12:34:39:651 [iOS] Retrieving contexts and views
+2019-03-29 12:34:39:651 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:39:652 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:39:652 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:39:653 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:39:653 [iOS] No web frames found.
+2019-03-29 12:34:39:654 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:40:159 [iOS] Retrieving contexts and views
+2019-03-29 12:34:40:160 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:40:160 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:40:160 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:40:163 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:40:163 [iOS] No web frames found.
+2019-03-29 12:34:40:163 [iOS] Retrieving contexts and views
+2019-03-29 12:34:40:163 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:40:163 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:40:163 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:40:167 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:40:167 [iOS] No web frames found.
+2019-03-29 12:34:40:167 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:40:669 [iOS] Retrieving contexts and views
+2019-03-29 12:34:40:669 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:40:669 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:40:669 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:40:671 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:40:672 [iOS] No web frames found.
+2019-03-29 12:34:40:672 [iOS] Retrieving contexts and views
+2019-03-29 12:34:40:672 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:40:672 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:40:672 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:40:674 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:40:674 [iOS] No web frames found.
+2019-03-29 12:34:40:674 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:41:175 [iOS] Retrieving contexts and views
+2019-03-29 12:34:41:175 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:41:175 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:41:175 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:41:178 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:41:178 [iOS] No web frames found.
+2019-03-29 12:34:41:178 [iOS] Retrieving contexts and views
+2019-03-29 12:34:41:178 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:41:178 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:41:178 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:41:180 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:41:180 [iOS] No web frames found.
+2019-03-29 12:34:41:180 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:41:683 [iOS] Retrieving contexts and views
+2019-03-29 12:34:41:683 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:41:683 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:41:683 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:41:686 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:41:686 [iOS] No web frames found.
+2019-03-29 12:34:41:686 [iOS] Retrieving contexts and views
+2019-03-29 12:34:41:686 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:41:686 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:41:686 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:41:688 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:41:688 [iOS] No web frames found.
+2019-03-29 12:34:41:688 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:42:193 [iOS] Retrieving contexts and views
+2019-03-29 12:34:42:193 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:42:194 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:42:194 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:42:196 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:42:196 [iOS] No web frames found.
+2019-03-29 12:34:42:197 [iOS] Retrieving contexts and views
+2019-03-29 12:34:42:197 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:42:197 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:42:198 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:42:199 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:42:199 [iOS] No web frames found.
+2019-03-29 12:34:42:199 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:42:700 [iOS] Retrieving contexts and views
+2019-03-29 12:34:42:700 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:42:700 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:42:701 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:42:703 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:42:703 [iOS] No web frames found.
+2019-03-29 12:34:42:703 [iOS] Retrieving contexts and views
+2019-03-29 12:34:42:704 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:42:704 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:42:704 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:42:705 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:42:706 [iOS] No web frames found.
+2019-03-29 12:34:42:706 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:43:207 [iOS] Retrieving contexts and views
+2019-03-29 12:34:43:207 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:43:207 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:43:208 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:43:210 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:43:210 [iOS] No web frames found.
+2019-03-29 12:34:43:210 [iOS] Retrieving contexts and views
+2019-03-29 12:34:43:210 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:43:210 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:43:211 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:43:212 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:43:212 [iOS] No web frames found.
+2019-03-29 12:34:43:212 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:43:718 [iOS] Retrieving contexts and views
+2019-03-29 12:34:43:718 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:43:719 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:43:719 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:43:721 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:43:721 [iOS] No web frames found.
+2019-03-29 12:34:43:721 [iOS] Retrieving contexts and views
+2019-03-29 12:34:43:722 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:43:722 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:43:722 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:43:723 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:43:724 [iOS] No web frames found.
+2019-03-29 12:34:43:724 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:44:229 [iOS] Retrieving contexts and views
+2019-03-29 12:34:44:229 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:44:230 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:44:230 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:44:232 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:44:233 [iOS] No web frames found.
+2019-03-29 12:34:44:233 [iOS] Retrieving contexts and views
+2019-03-29 12:34:44:233 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:44:233 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:44:233 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:44:235 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:44:235 [iOS] No web frames found.
+2019-03-29 12:34:44:235 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:44:739 [iOS] Retrieving contexts and views
+2019-03-29 12:34:44:739 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:44:740 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:44:740 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:44:742 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:44:742 [iOS] No web frames found.
+2019-03-29 12:34:44:743 [iOS] Retrieving contexts and views
+2019-03-29 12:34:44:743 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:44:743 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:44:743 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:44:744 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:44:745 [iOS] No web frames found.
+2019-03-29 12:34:44:745 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:45:249 [iOS] Retrieving contexts and views
+2019-03-29 12:34:45:249 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:45:250 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:45:250 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:45:252 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:45:252 [iOS] No web frames found.
+2019-03-29 12:34:45:253 [iOS] Retrieving contexts and views
+2019-03-29 12:34:45:253 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:45:253 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:45:253 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:45:255 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:45:255 [iOS] No web frames found.
+2019-03-29 12:34:45:255 [iOS] Could not find any webviews yet, refreshing/retrying
+2019-03-29 12:34:45:761 [iOS] Retrieving contexts and views
+2019-03-29 12:34:45:761 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:45:761 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:45:762 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:45:764 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:45:764 [iOS] No web frames found.
+2019-03-29 12:34:45:764 [iOS] Retrieving contexts and views
+2019-03-29 12:34:45:764 [iOS] Selecting by url: true (expected url: 'http://appium.io')
+2019-03-29 12:34:45:764 [RemoteDebugger] Getting WebKitRemoteDebugger pageArray: localhost, 27753
+2019-03-29 12:34:45:765 [RemoteDebugger] Sending request to: http://localhost:27753/json
+2019-03-29 12:34:45:767 [RemoteDebugger] Page element JSON: []
+2019-03-29 12:34:45:767 [iOS] No web frames found.
+2019-03-29 12:34:45:774 [XCUITest] Error: Could not navigate to webview; there are none!
+2019-03-29 12:34:45:774 [XCUITest]     at spinHandles (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-ios-driver/lib/commands/context.js:537:13)
+2019-03-29 12:34:45:775 [WD Proxy] Matched '/session/44e7cdbd-64da-4c7b-81e4-52f08550fd85' to command name 'deleteSession'
+2019-03-29 12:34:45:775 [WD Proxy] Proxying [DELETE /session/44e7cdbd-64da-4c7b-81e4-52f08550fd85] to [DELETE http://localhost:8100/session/1B7FEF88-8746-4AF3-8AB4-A2B95CD43F45] with no body
+2019-03-29 12:34:46:870 [WD Proxy] Got response with status 200: "{\n  \"value\" : {\n\n  },\n  \"sessionId\" : \"F65535EA-CF68-4974-B454-2BB1B8C39D1D\",\n  \"status\" : 0\n}"
+2019-03-29 12:34:46:870 [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2019-03-29 12:34:46:870 [iOSLog] Stopping iOS log capture
+2019-03-29 12:34:46:871 [XCUITest] Connection to WDA timed out
+2019-03-29 12:34:46:871 [iProxy] recv failed: Operation not permitted
+2019-03-29 12:34:46:873 [BaseDriver] Event 'newSessionStarted' logged at 1553888086873 (12:34:46 GMT-0700 (Pacific Daylight Time))
+2019-03-29 12:34:46:874 [W3C] Encountered internal error running command: Error: Could not navigate to webview; there are none!
+2019-03-29 12:34:46:874 [W3C]     at spinHandles (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-ios-driver/lib/commands/context.js:537:13)
+2019-03-29 12:34:46:887 [HTTP] <-- POST /wd/hub/session 500 186947 ms - 655
+2019-03-29 12:34:46:887 [HTTP] 
+2019-03-29 13:08:24:788 [Xcode] 2019-03-29 13:08:24.787 xcodebuild[34822:159674] Error Domain=com.apple.platform.iphoneos Code=-13 "Lost connection to DTServiceHub" UserInfo={NSLocalizedDescription=Lost connection to DTServiceHub}

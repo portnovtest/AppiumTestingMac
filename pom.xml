@@ -10,11 +10,19 @@
         <artifactId>java-client</artifactId>
         <version>7.0.0</version>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/org.testng/testng -->
+    <dependency>
+        <groupId>org.testng</groupId>
+        <artifactId>testng</artifactId>
+        <version>6.14.3</version>
+        <scope>test</scope>
+    </dependency>
 
 </dependencies>
     <groupId>com.w2a</groupId>
     <artifactId>AppiumTesting</artifactId>
     <version>1.0-SNAPSHOT</version>
+
 
 
 </project>

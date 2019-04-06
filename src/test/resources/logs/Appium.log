@@ -2481,3 +2481,4 @@
 2019-03-29 12:34:46:874 [W3C]     at spinHandles (/Applications/Appium.app/Contents/Resources/app/node_modules/appium/node_modules/appium-ios-driver/lib/commands/context.js:537:13)
 2019-03-29 12:34:46:887 [HTTP] <-- POST /wd/hub/session 500 186947 ms - 655
 2019-03-29 12:34:46:887 [HTTP] 
+2019-03-29 13:08:24:788 [Xcode] 2019-03-29 13:08:24.787 xcodebuild[34822:159674] Error Domain=com.apple.platform.iphoneos Code=-13 "Lost connection to DTServiceHub" UserInfo={NSLocalizedDescription=Lost connection to DTServiceHub}
